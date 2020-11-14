@@ -8675,7 +8675,7 @@
   --gray-lightest: #e6e9ed;
   --black: #000000;
   --primary: #ff5900;
-  --secondary: #a3a4a5;
+  --secondary: #000000;
   --success: #29c0b1;
   --info: #2c50ed;
   --warning: #fbbc06;
@@ -11104,27 +11104,27 @@ fieldset:disabled .wizard > .actions a,
 
 .btn-secondary, .wizard > .actions .disabled a {
   color: #212529;
-  background-color: #a3a4a5;
-  border-color: #a3a4a5;
+  background-color: #000000;
+  border-color: #000000;
 }
 
 .btn-secondary:hover, .wizard > .actions .disabled a:hover {
   color: #fff;
-  background-color: #909192;
+  background-color: #010101;
   border-color: #898b8c;
 }
 
 .btn-secondary:focus, .wizard > .actions .disabled a:focus, .btn-secondary.focus, .wizard > .actions .disabled a.focus {
   color: #fff;
-  background-color: #909192;
-  border-color: #898b8c;
+  background-color: #010101;
+  border-color: #050505;
   box-shadow: 0 0 0 0.2rem rgba(144, 145, 146, 0.5);
 }
 
 .btn-secondary.disabled, .wizard > .actions .disabled a.disabled, .btn-secondary:disabled, .wizard > .actions .disabled a:disabled {
   color: #212529;
-  background-color: #a3a4a5;
-  border-color: #a3a4a5;
+  background-color: #000000;
+  border-color: #000000;
 }
 
 .btn-secondary:not(:disabled):not(.disabled):active, .wizard > .actions .disabled a:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active, .wizard > .actions .disabled a:not(:disabled):not(.disabled).active,
@@ -11396,14 +11396,14 @@ fieldset:disabled .wizard > .actions a,
 }
 
 .btn-outline-secondary, .editable-container.editable-inline .editableform .control-group .editable-buttons .editable-cancel {
-  color: #a3a4a5;
-  border-color: #a3a4a5;
+  color: #000000;
+  border-color: #000000;
 }
 
 .btn-outline-secondary:hover, .editable-container.editable-inline .editableform .control-group .editable-buttons .editable-cancel:hover {
   color: #212529;
-  background-color: #a3a4a5;
-  border-color: #a3a4a5;
+  background-color: #000000;
+  border-color: #000000;
 }
 
 .btn-outline-secondary:focus, .editable-container.editable-inline .editableform .control-group .editable-buttons .editable-cancel:focus, .btn-outline-secondary.focus, .editable-container.editable-inline .editableform .control-group .editable-buttons .focus.editable-cancel {
@@ -11411,7 +11411,7 @@ fieldset:disabled .wizard > .actions a,
 }
 
 .btn-outline-secondary.disabled, .editable-container.editable-inline .editableform .control-group .editable-buttons .disabled.editable-cancel, .btn-outline-secondary:disabled, .editable-container.editable-inline .editableform .control-group .editable-buttons .editable-cancel:disabled {
-  color: #a3a4a5;
+  color: #000000;
   background-color: transparent;
 }
 
@@ -11419,8 +11419,8 @@ fieldset:disabled .wizard > .actions a,
 .show > .btn-outline-secondary.dropdown-toggle,
 .editable-container.editable-inline .editableform .control-group .editable-buttons .show > .dropdown-toggle.editable-cancel {
   color: #212529;
-  background-color: #a3a4a5;
-  border-color: #a3a4a5;
+  background-color: #000000;
+  border-color: #000000;
 }
 
 .btn-outline-secondary:not(:disabled):not(.disabled):active:focus, .editable-container.editable-inline .editableform .control-group .editable-buttons .editable-cancel:not(:disabled):not(.disabled):active:focus, .btn-outline-secondary:not(:disabled):not(.disabled).active:focus, .editable-container.editable-inline .editableform .control-group .editable-buttons .editable-cancel:not(:disabled):not(.disabled).active:focus,
@@ -14129,7 +14129,7 @@ a.badge-primary:focus, a.badge-primary.focus {
 
 .badge-secondary {
   color: #212529;
-  background-color: #a3a4a5;
+  background-color: #000000;
 }
 
 a.badge-secondary:hover, a.badge-secondary:focus {
@@ -15610,7 +15610,7 @@ button.bg-primary:focus {
 }
 
 .bg-secondary {
-  background-color: #a3a4a5 !important;
+  background-color: #000000 !important;
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
@@ -15734,7 +15734,7 @@ button.bg-dark:focus {
 }
 
 .border-secondary, .loader-demo-box {
-  border-color: #a3a4a5 !important;
+  border-color: #000000 !important;
 }
 
 .border-success, .swal2-modal .swal2-buttonswrapper .swal2-styled.swal2-confirm {
@@ -18792,7 +18792,7 @@ a.text-primary:hover, .list-wrapper .completed a.remove:hover, .horizontal-menu 
 }
 
 .text-secondary, .list-wrapper .remove {
-  color: #a3a4a5 !important;
+  color: #000000 !important;
 }
 
 a.text-secondary:hover, .list-wrapper a.remove:hover, a.text-secondary:focus, .list-wrapper a.remove:focus {
@@ -19440,11 +19440,11 @@ address p {
 }
 
 .blockquote-secondary {
-  border-color: #a3a4a5;
+  border-color: #000000;
 }
 
 .blockquote-secondary .blockquote-footer {
-  color: #a3a4a5;
+  color: #000000;
 }
 
 .blockquote-success {
@@ -20314,8 +20314,8 @@ code {
 }
 
 .badge-outline-secondary {
-  color: #a3a4a5;
-  border: 1px solid #a3a4a5;
+  color: #000000;
+  border: 1px solid #000000;
 }
 
 .badge-outline-success {
@@ -20488,8 +20488,8 @@ code {
 
 .alert-fill-secondary {
   color: #ffffff;
-  background-color: #a3a4a5;
-  border-color: #a3a4a5;
+  background-color: #000000;
+  border-color: #000000;
 }
 
 .alert-fill-secondary hr {
@@ -21025,13 +21025,13 @@ code {
 }
 
 .btn-inverse-secondary:not(.btn-inverse-light) {
-  color: #a3a4a5;
+  color: #000000;
 }
 
 .btn-inverse-secondary:hover {
   color: #ffffff;
-  background-color: #a3a4a5;
-  border-color: #a3a4a5;
+  background-color: #000000;
+  border-color: #000000;
 }
 
 .btn-inverse-secondary.focus, .btn-inverse-secondary:focus {
@@ -21039,15 +21039,15 @@ code {
 }
 
 .btn-inverse-secondary.disabled, .btn-inverse-secondary:disabled {
-  color: #a3a4a5;
+  color: #000000;
   background-color: transparent;
 }
 
 .btn-inverse-secondary.active, .btn-inverse-secondary:active,
 .show > .btn-inverse-secondary.dropdown-toggle {
   color: #ffffff;
-  background-color: #a3a4a5;
-  border-color: #a3a4a5;
+  background-color: #000000;
+  border-color: #000000;
 }
 
 .btn-inverse-success {
@@ -21405,11 +21405,11 @@ code {
 
 .bg-inverse-secondary {
   background: #e3e4e4;
-  border-color: #a3a4a5;
+  border-color: #000000;
 }
 
 .bg-inverse-secondary .breadcrumb-item {
-  color: #a3a4a5;
+  color: #000000;
 }
 
 .bg-inverse-secondary .breadcrumb-item:before {
@@ -21429,7 +21429,7 @@ code {
 }
 
 .bg-inverse-secondary.breadcrumb-custom .breadcrumb-item a {
-  color: #a3a4a5;
+  color: #000000;
   border: none;
 }
 
@@ -21438,7 +21438,7 @@ code {
 }
 
 .bg-inverse-secondary.breadcrumb-custom .breadcrumb-item span {
-  color: #a3a4a5;
+  color: #000000;
 }
 
 .bg-inverse-secondary.breadcrumb-custom .breadcrumb-item:last-child {
@@ -21865,7 +21865,7 @@ code {
 }
 
 .icon-card-secondary {
-  background: #a3a4a5;
+  background: #000000;
   color: #ffffff;
 }
 
@@ -22245,12 +22245,12 @@ code {
 
 .form-check-secondary.form-check label input[type="checkbox"] + .input-helper:before,
 .form-check-secondary.form-check label input[type="radio"] + .input-helper:before {
-  border-color: #a3a4a5;
+  border-color: #000000;
 }
 
 .form-check-secondary.form-check label input[type="checkbox"]:checked + .input-helper:before,
 .form-check-secondary.form-check label input[type="radio"]:checked + .input-helper:before {
-  background: #a3a4a5;
+  background: #000000;
 }
 
 .form-check-success.form-check label input[type="checkbox"] + .input-helper:before,
@@ -22499,7 +22499,7 @@ select.loader-demo-box.tt-hint, select.border-secondary.asColorPicker-input, .da
 .jsgrid .jsgrid-table .jsgrid-filter-row select.border-secondary, .select2-container--default select.border-secondary.select2-selection--single, .select2-container--default .select2-selection--single select.border-secondary.select2-search__field, select.border-secondary.typeahead,
 select.border-secondary.tt-query,
 select.border-secondary.tt-hint {
-  outline: 1px solid #a3a4a5;
+  outline: 1px solid #000000;
 }
 
 select.form-control.border-secondary:focus, select.form-control.loader-demo-box:focus, select.loader-demo-box.asColorPicker-input:focus, .dataTables_wrapper select.loader-demo-box:focus,
@@ -22509,7 +22509,7 @@ select.loader-demo-box.tt-hint:focus, select.border-secondary.asColorPicker-inpu
 .jsgrid .jsgrid-table .jsgrid-filter-row select.border-secondary:focus, .select2-container--default select.border-secondary.select2-selection--single:focus, .select2-container--default .select2-selection--single select.border-secondary.select2-search__field:focus, select.border-secondary.typeahead:focus,
 select.border-secondary.tt-query:focus,
 select.border-secondary.tt-hint:focus {
-  outline: 1px solid #a3a4a5;
+  outline: 1px solid #000000;
 }
 
 select.form-control.border-success, select.border-success.asColorPicker-input, .swal2-modal .swal2-buttonswrapper select.asColorPicker-input.swal2-styled.swal2-confirm, .dataTables_wrapper select.border-success, .dataTables_wrapper .swal2-modal .swal2-buttonswrapper select.swal2-styled.swal2-confirm, .swal2-modal .swal2-buttonswrapper .dataTables_wrapper select.swal2-styled.swal2-confirm,
@@ -22717,14 +22717,14 @@ select.border-dark.tt-hint:focus {
   width: 26px;
   height: 26px;
   border-radius: 50%;
-  border: 1px solid #a3a4a5;
+  border: 1px solid #000000;
 }
 
 .icon-rounded-secondary i {
   line-height: 26px;
   text-align: center;
   display: block;
-  color: #a3a4a5;
+  color: #000000;
 }
 
 .icon-rounded-success {
@@ -22838,7 +22838,7 @@ select.border-dark.tt-hint:focus {
   line-height: 23px;
   text-align: center;
   display: block;
-  color: #a3a4a5;
+  color: #000000;
 }
 
 .icon-square-sm-success {
@@ -23370,7 +23370,7 @@ select.border-dark.tt-hint:focus {
 }
 
 .circle-loader:after {
-  border: 10px solid #a3a4a5;
+  border: 10px solid #000000;
 }
 
 @keyframes spin {
@@ -24006,21 +24006,21 @@ dl li {
 .pagination-secondary .jsgrid .jsgrid-pager .jsgrid-pager-page a, .jsgrid .jsgrid-pager .pagination-secondary .jsgrid-pager-page a {
   background: rgba(163, 164, 165, 0.08);
   border: 0;
-  color: #a3a4a5;
+  color: #000000;
 }
 
 .pagination-secondary .page-item.active .page-link, .pagination-secondary .jsgrid .jsgrid-pager .active.jsgrid-pager-nav-button .page-link, .jsgrid .jsgrid-pager .pagination-secondary .active.jsgrid-pager-nav-button .page-link, .pagination-secondary .jsgrid .jsgrid-pager .active.jsgrid-pager-page .page-link, .jsgrid .jsgrid-pager .pagination-secondary .active.jsgrid-pager-page .page-link, .pagination-secondary .page-item.active .jsgrid .jsgrid-pager .jsgrid-pager-nav-button a, .jsgrid .jsgrid-pager .jsgrid-pager-nav-button .pagination-secondary .page-item.active a, .pagination-secondary .jsgrid .jsgrid-pager .active.jsgrid-pager-nav-button a, .jsgrid .jsgrid-pager .pagination-secondary .active.jsgrid-pager-nav-button a,
 .pagination-secondary .page-item.active .jsgrid .jsgrid-pager .jsgrid-pager-page a, .jsgrid .jsgrid-pager .jsgrid-pager-page .pagination-secondary .page-item.active a,
 .pagination-secondary .jsgrid .jsgrid-pager .active.jsgrid-pager-page a, .jsgrid .jsgrid-pager .pagination-secondary .active.jsgrid-pager-page a {
-  background: #a3a4a5;
-  border-color: #a3a4a5;
+  background: #000000;
+  border-color: #000000;
 }
 
 .pagination-secondary .page-item:hover .page-link, .pagination-secondary .jsgrid .jsgrid-pager .jsgrid-pager-nav-button:hover .page-link, .jsgrid .jsgrid-pager .pagination-secondary .jsgrid-pager-nav-button:hover .page-link, .pagination-secondary .jsgrid .jsgrid-pager .jsgrid-pager-page:hover .page-link, .jsgrid .jsgrid-pager .pagination-secondary .jsgrid-pager-page:hover .page-link, .pagination-secondary .page-item:hover .jsgrid .jsgrid-pager .jsgrid-pager-nav-button a, .jsgrid .jsgrid-pager .jsgrid-pager-nav-button .pagination-secondary .page-item:hover a, .pagination-secondary .jsgrid .jsgrid-pager .jsgrid-pager-nav-button:hover a, .jsgrid .jsgrid-pager .pagination-secondary .jsgrid-pager-nav-button:hover a,
 .pagination-secondary .page-item:hover .jsgrid .jsgrid-pager .jsgrid-pager-page a, .jsgrid .jsgrid-pager .jsgrid-pager-page .pagination-secondary .page-item:hover a,
 .pagination-secondary .jsgrid .jsgrid-pager .jsgrid-pager-page:hover a, .jsgrid .jsgrid-pager .pagination-secondary .jsgrid-pager-page:hover a {
   background: #b0b1b2;
-  border-color: #a3a4a5;
+  border-color: #000000;
   color: #ffffff;
 }
 
@@ -24289,25 +24289,25 @@ dl li {
 }
 
 .popover-secondary .popover-header {
-  background: #a3a4a5;
+  background: #000000;
   color: #ffffff;
   border-bottom: 0;
 }
 
 .popover-secondary.bs-popover-top .arrow:before, .popover-secondary.bs-popover-auto[x-placement^="top"] .arrow:before, .popover-secondary.bs-popover-top .arrow:after, .popover-secondary.bs-popover-auto[x-placement^="top"] .arrow:after {
-  border-top-color: #a3a4a5;
+  border-top-color: #000000;
 }
 
 .popover-secondary.bs-popover-right .arrow:before, .popover-secondary.bs-popover-auto[x-placement^="right"] .arrow:before, .popover-secondary.bs-popover-right .arrow:after, .popover-secondary.bs-popover-auto[x-placement^="right"] .arrow:after {
-  border-right-color: #a3a4a5;
+  border-right-color: #000000;
 }
 
 .popover-secondary.bs-popover-bottom .arrow:before, .popover-secondary.bs-popover-auto[x-placement^="bottom"] .arrow:before, .popover-secondary.bs-popover-bottom .arrow:after, .popover-secondary.bs-popover-auto[x-placement^="bottom"] .arrow:after {
-  border-bottom-color: #a3a4a5;
+  border-bottom-color: #000000;
 }
 
 .popover-secondary.bs-popover-left .arrow:before, .popover-secondary.bs-popover-auto[x-placement^="left"] .arrow:before, .popover-secondary.bs-popover-left .arrow:after, .popover-secondary.bs-popover-auto[x-placement^="left"] .arrow:after {
-  border-left-color: #a3a4a5;
+  border-left-color: #000000;
 }
 
 .popover-success {
@@ -24882,11 +24882,11 @@ dl li {
 }
 
 .nav-pills-secondary .nav-link {
-  color: #a3a4a5;
+  color: #000000;
 }
 
 .nav-pills-secondary .nav-link.active {
-  background: #a3a4a5;
+  background: #000000;
 }
 
 .nav-pills-success .nav-link {
@@ -24971,7 +24971,7 @@ dl li {
   position: absolute;
   content: " ";
   width: 3px;
-  background-color: #a3a4a5;
+  background-color: #000000;
   left: 50%;
   margin-left: -1.5px;
 }
@@ -25114,11 +25114,11 @@ dl li {
 }
 
 .timeline-wrapper-secondary .timeline-panel:before {
-  background: #a3a4a5;
+  background: #000000;
 }
 
 .timeline-wrapper-secondary .timeline-badge {
-  background: #a3a4a5;
+  background: #000000;
 }
 
 .timeline-wrapper-success .timeline-panel:before {
@@ -25289,24 +25289,24 @@ dl li {
 }
 
 .tooltip-secondary .tooltip-inner {
-  background: #a3a4a5;
+  background: #000000;
   color: #ffffff;
 }
 
 .tooltip-secondary.bs-tooltip-top .arrow::before, .tooltip-secondary.bs-tooltip-auto[x-placement^="top"] .arrow::before {
-  border-top-color: #a3a4a5;
+  border-top-color: #000000;
 }
 
 .tooltip-secondary.bs-tooltip-right .arrow::before, .tooltip-secondary.bs-tooltip-auto[x-placement^="right"] .arrow::before {
-  border-right-color: #a3a4a5;
+  border-right-color: #000000;
 }
 
 .tooltip-secondary.bs-tooltip-bottom .arrow::before, .tooltip-secondary.bs-tooltip-auto[x-placement^="bottom"] .arrow::before {
-  border-bottom-color: #a3a4a5;
+  border-bottom-color: #000000;
 }
 
 .tooltip-secondary.bs-tooltip-left .arrow::before, .tooltip-secondary.bs-tooltip-auto[x-placement^="left"] .arrow::before {
-  border-left-color: #a3a4a5;
+  border-left-color: #000000;
 }
 
 .tooltip-success .tooltip-inner {
@@ -27039,19 +27039,19 @@ body.avgrund-active {
 }
 
 .slider-secondary .noUi-base .noUi-connect {
-  background: #a3a4a5;
+  background: #000000;
 }
 
 .slider-secondary .noUi-base .noUi-origin {
-  background: #a3a4a5;
+  background: #000000;
 }
 
 .slider-secondary .noUi-base .noUi-origin .noUi-handle:after {
-  background: #a3a4a5;
+  background: #000000;
 }
 
 .slider-secondary .noUi-base .noUi-origin .noUi-handle .noUi-tooltip {
-  background: #a3a4a5;
+  background: #000000;
   color: #ffffff;
 }
 
@@ -28222,7 +28222,7 @@ div.tagsinput span.tag a {
 .auth .auth-form-transparent .tt-query,
 .auth .auth-form-transparent .tt-hint,
 .auth .auth-form-transparent .input-group-text {
-  border-color: #a3a4a5;
+  border-color: #000000;
 }
 
 .auth .auth-form-transparent .form-control:focus, .auth .auth-form-transparent .asColorPicker-input:focus, .auth .auth-form-transparent .dataTables_wrapper select:focus, .dataTables_wrapper .auth .auth-form-transparent select:focus, .auth .auth-form-transparent .jsgrid .jsgrid-table .jsgrid-filter-row input:focus[type=text], .jsgrid .jsgrid-table .jsgrid-filter-row .auth .auth-form-transparent input:focus[type=text],
@@ -28234,11 +28234,11 @@ div.tagsinput span.tag a {
 .auth .auth-form-transparent .tt-hint:active,
 .auth .auth-form-transparent .input-group-text:focus,
 .auth .auth-form-transparent .input-group-text:active {
-  border-color: #a3a4a5;
+  border-color: #000000;
 }
 
 .auth .auth-form-transparent select {
-  outline-color: #a3a4a5;
+  outline-color: #000000;
 }
 
 .auth.auth-img-bg {
@@ -29051,7 +29051,7 @@ div.tagsinput span.tag a {
     width: 6px;
     height: 2px;
     border-radius: 100%;
-    background: #a3a4a5;
+    background: #000000;
     top: 12px;
     left: 0;
   }
@@ -29110,7 +29110,7 @@ div.tagsinput span.tag a {
     width: 6px;
     height: 2px;
     border-radius: 100%;
-    background: #a3a4a5;
+    background: #000000;
     top: 12px;
     left: 0;
   }
@@ -29418,3 +29418,10 @@ div.tagsinput span.tag a {
 }
 
 /*# sourceMappingURL=../maps/horizontal-layout-light/style.css.map */
+
+.index-section-1 {
+  background-image: url("../images/index-s-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
