@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
+
+import Layout from "./Layout";
 import MainContent from "./components/Index/MainContent";
 
 export default class Index extends React.Component {
@@ -8,9 +10,11 @@ export default class Index extends React.Component {
       <HelmetProvider>
         <React.Fragment>
           <Helmet>
-            <title>Elevate | Pattarai</title>
+            <title>KuTumba FC</title>
           </Helmet>
-          <MainContent></MainContent>
+          <Layout>
+            <MainContent></MainContent>
+          </Layout>
         </React.Fragment>
       </HelmetProvider>
     );

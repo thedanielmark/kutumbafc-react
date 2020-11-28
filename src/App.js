@@ -5,21 +5,30 @@ import {
   Switch,
   Redirect,
 } from "react-router-dom";
+
+// Importing auth components
 import ProtectedRoute from "./ProtectedRoute";
 import CheckIfLoggedIn from "./CheckIfLoggedIn";
 import CheckIfAccountVerified from "./CheckIfAccountVerified";
 
 // Importing all pages
 import Index from "./pages/Index";
+import Fixtures from "./pages/Fixtures";
+import Newsroom from "./pages/Newsroom";
+import Gallery from "./pages/Gallery";
+import Merch from "./pages/Merch";
+import Players from "./pages/Players";
 import Login from "./pages/Login";
 import VerifyAccount from "./pages/VerifyAccount";
 import Register from "./pages/Register";
-// import CodeOfConduct from "./pages/CodeOfConduct";
-// import ProposalGuidelines from "./pages/ProposalGuidelines";
-// import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Profile from "./pages/Profile";
 import EditProfile from "./pages/EditProfile";
-// import Settings from "./pages/Settings";
+import Cart from "./pages/Cart";
+import Settings from "./pages/Settings";
+import CommunityGuidelines from "./pages/CommunityGuidelines";
+import CodeOfConduct from "./pages/CodeOfConduct";
+import TermsOfService from "./pages/TermsOfService";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Error404 from "./pages/Error404";
 
 export default class App extends Component {
@@ -35,25 +44,27 @@ export default class App extends Component {
             path="/verify-account"
             component={VerifyAccount}
           />
-          {/* <Route exact path="/code-of-conduct" component={CodeOfConduct} />
-          <Route
-            exact
-            path="/proposal-guidelines"
-            component={ProposalGuidelines}
-          />
-          <Route exact path="/privacy-policy" component={PrivacyPolicy} />  */}
-          <ProtectedRoute exact path="/home" component={Profile} />
+          <Route exact path="/code-of-conduct" component={CodeOfConduct} />
+          <Route exact path="/gallery" component={Gallery} />
+          <Route exact path="/privacy-policy" component={PrivacyPolicy} />
           <ProtectedRoute exact path="/profile" component={Profile} />
           <ProtectedRoute exact path="/edit-profile" component={EditProfile} />
-          {/* <ProtectedRoute exact path="/discover" component={Discover} />
-          <ProtectedRoute exact path="/my-proposals" component={MyProposals} />
+          <ProtectedRoute exact path="/cart" component={Cart} />
           <ProtectedRoute
             exact
-            path="/approved-proposals"
-            component={ApprovedProposals}
+            path="/community-guidelines"
+            component={CommunityGuidelines}
           />
-          <ProtectedRoute exact path="/bookmarks" component={Bookmarks} /> */}
-          {/* <ProtectedRoute exact path="/settings" component={Settings} /> */}
+          <ProtectedRoute
+            exact
+            path="/terms-of-service"
+            component={TermsOfService}
+          />
+          <Route exact path="/fixtures" component={Fixtures} />
+          <Route exact path="/players" component={Players} />
+          <ProtectedRoute exact path="/merch" component={Merch} />
+          <Route exact path="/newsroom" component={Newsroom} />
+          <ProtectedRoute exact path="/settings" component={Settings} />
           <Route exact path="/404" component={Error404} />
           <Redirect to="/404" />
         </Switch>
