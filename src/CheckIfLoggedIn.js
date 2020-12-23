@@ -14,8 +14,8 @@ class CheckIfLoggedIn extends React.Component {
   componentDidMount() {
     fetch(
       localStorage.APIRoute +
-        "auth-status.php?email=" +
-        localStorage.email +
+        "auth-status.php?phone=" +
+        localStorage.phone +
         "&auth_token=" +
         localStorage.auth_token
     )
@@ -57,7 +57,7 @@ class CheckIfLoggedIn extends React.Component {
       const Component = this.props.component;
 
       if (data.isAuthenticated === true) {
-        return data.emailConfirmed ? (
+        return data.phoneConfirmed ? (
           <Redirect to={{ pathname: "/profile" }} />
         ) : (
           <Redirect to={{ pathname: "/verify-account" }} />

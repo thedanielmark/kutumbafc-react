@@ -9,7 +9,6 @@ import {
 // Importing auth components
 import ProtectedRoute from "./ProtectedRoute";
 import CheckIfLoggedIn from "./CheckIfLoggedIn";
-import CheckIfAccountVerified from "./CheckIfAccountVerified";
 
 // Importing all pages
 import Index from "./pages/Index";
@@ -36,20 +35,10 @@ export default class App extends Component {
     return (
       <Router>
         <Switch>
-          <Route exact path="/" component={Index} />
-          <CheckIfLoggedIn exact path="/register" component={Register} />
-          <CheckIfLoggedIn exact path="/login" component={Login} />
-          <CheckIfAccountVerified
-            exact
-            path="/verify-account"
-            component={VerifyAccount}
-          />
+          <CheckIfLoggedIn exact path="/" component={Index} />
           <Route exact path="/code-of-conduct" component={CodeOfConduct} />
           <Route exact path="/gallery" component={Gallery} />
           <Route exact path="/privacy-policy" component={PrivacyPolicy} />
-          <ProtectedRoute exact path="/profile" component={Profile} />
-          <ProtectedRoute exact path="/edit-profile" component={EditProfile} />
-          <ProtectedRoute exact path="/cart" component={Cart} />
           <ProtectedRoute
             exact
             path="/community-guidelines"
@@ -64,7 +53,6 @@ export default class App extends Component {
           <Route exact path="/players" component={Players} />
           <ProtectedRoute exact path="/merch" component={Merch} />
           <Route exact path="/newsroom" component={Newsroom} />
-          <ProtectedRoute exact path="/settings" component={Settings} />
           <Route exact path="/404" component={Error404} />
           <Redirect to="/404" />
         </Switch>
