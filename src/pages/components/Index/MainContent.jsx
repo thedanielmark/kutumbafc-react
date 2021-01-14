@@ -2,9 +2,6 @@ import React from "react";
 import { motion } from "framer-motion";
 import { BrowserRouter as Router, Link } from "react-router-dom";
 
-// Import page specific stuff
-import logo from "../../../images/logo-full.png";
-
 export default function MainContent() {
   const easing = [0.6, -0.05, 0.01, 0.99];
   const fade1 = {
@@ -80,8 +77,8 @@ export default function MainContent() {
                       {/* Post Title */}
                       <h1 className="page-heading__title">
                         <a href="index.html">
-                          Kutumba FC{" "}
-                          <span className="highlight">won the last game</span>{" "}
+                          Kutumba FC
+                          <span className="highlight">won the last game</span>
                           2-0 against Clovers
                         </a>
                       </h1>
@@ -94,7 +91,7 @@ export default function MainContent() {
                         <li className="meta__item meta__item--views">2369</li>
                         <li className="meta__item meta__item--likes">
                           <a href="#">
-                            <i className="meta-like meta-like--active icon-heart" />{" "}
+                            <i className="meta-like meta-like--active icon-heart" />
                             530
                           </a>
                         </li>
@@ -155,7 +152,7 @@ export default function MainContent() {
                         <li className="meta__item meta__item--views">2369</li>
                         <li className="meta__item meta__item--likes">
                           <a href="#">
-                            <i className="meta-like meta-like--active icon-heart" />{" "}
+                            <i className="meta-like meta-like--active icon-heart" />
                             530
                           </a>
                         </li>
@@ -202,10 +199,10 @@ export default function MainContent() {
                       {/* Post Title */}
                       <h1 className="page-heading__title">
                         <a href="index.html">
-                          The New{" "}
+                          The New
                           <span className="highlight">
                             Eco Friendly Stadium
-                          </span>{" "}
+                          </span>
                           won a leafy award in 2016
                         </a>
                       </h1>
@@ -218,7 +215,7 @@ export default function MainContent() {
                         <li className="meta__item meta__item--views">2369</li>
                         <li className="meta__item meta__item--likes">
                           <a href="#">
-                            <i className="meta-like meta-like--active icon-heart" />{" "}
+                            <i className="meta-like meta-like--active icon-heart" />
                             530
                           </a>
                         </li>
@@ -305,13 +302,13 @@ export default function MainContent() {
         </div>
         {/* Content
 		================================================== */}
-        <div className="site-content">
+        {/* <div className="site-content">
           <div className="container">
             <div className="row d-flex justify-content-center">
-              {/* Content */}
+              Content
               <div className="content col-lg-10">
                 <div>
-                  {/* Main News Banner */}
+                  {/* Main News Banner
                   <div className="main-news-banner main-news-banner--soccer-ball">
                     <div className="main-news-banner__inner">
                       <div className="posts posts--simple-list posts--simple-list--xlg">
@@ -324,10 +321,10 @@ export default function MainContent() {
                             </div>
                             <h6 className="posts__title">
                               <a href="#">
-                                Today was unveiled the{" "}
+                                Today was unveiled the
                                 <span className="main-news-banner__highlight">
                                   New Football
-                                </span>{" "}
+                                </span>
                                 for the league
                               </a>
                             </h6>
@@ -344,7 +341,7 @@ export default function MainContent() {
                                 href="#"
                                 className="btn btn-inverse btn-sm btn-outline btn-icon-right btn-condensed"
                               >
-                                Read More{" "}
+                                Read More
                                 <i className="fas fa-plus text-primary" />
                               </a>
                             </div>
@@ -354,15 +351,19 @@ export default function MainContent() {
                     </div>
                   </div>
                   {/* Main News Banner / End */}
-                  {/* Latest Blog Posts */}
+        {/* Latest Blog Posts
                   <div className="card card--clean">
                     <header className="card__header card__header--has-filter">
                       <h4>Latest Blog Posts</h4>
                     </header>
                   </div>
-                  {/* Latest Blog Posts / End */}
-                  {/* Post Area 1 */}
-                  <div className="posts posts--cards post-grid row">
+                  Latest Blog Posts / End */}
+        {/* Post Area 1 
+                  <div
+                    id="blog-posts-container"
+                    className="posts posts--cards post-grid row"
+                  >
+                    {/*
                     <div className="post-grid__item col-sm-6">
                       <div className="posts__item posts__item--card posts__item--category-1 card">
                         <figure className="posts__thumb">
@@ -372,10 +373,7 @@ export default function MainContent() {
                             </span>
                           </div>
                           <a href="#">
-                            <img
-                              src="soccer-dark/assets/images/soccer/samples/_soccer_post-img3.jpg"
-                              alt
-                            />
+                            <img src="soccer-dark/assets/images/soccer/samples/_soccer_post-img3.jpg" />
                           </a>
                         </figure>
                         <div className="posts__inner card__content">
@@ -435,14 +433,11 @@ export default function MainContent() {
                             </span>
                           </div>
                           <a href="#">
-                            <img
-                              src="soccer-dark/assets/images/soccer/samples/_soccer_post-img1.jpg"
-                              alt
-                            />
+                            <img src="soccer-dark/assets/images/soccer/samples/_soccer_post-img1.jpg" />
                           </a>
                         </figure>
                         <div className="posts__inner card__content">
-                          <a href="#" className="posts__cta" />{" "}
+                          <a href="#" className="posts__cta" />
                           <time dateTime="2016-08-23" className="posts__date">
                             August 28th, 2018
                           </time>
@@ -498,14 +493,11 @@ export default function MainContent() {
                             </span>
                           </div>
                           <a href="#">
-                            <img
-                              src="soccer-dark/assets/images/samples/post-img3.jpg"
-                              alt
-                            />
+                            <img src="soccer-dark/assets/images/samples/post-img3.jpg" />
                           </a>
                         </figure>
                         <div className="posts__inner card__content">
-                          <a href="#" className="posts__cta" />{" "}
+                          <a href="#" className="posts__cta" />
                           <time dateTime="2016-08-23" className="posts__date">
                             August 28th, 2018
                           </time>
@@ -561,14 +553,11 @@ export default function MainContent() {
                             </span>
                           </div>
                           <a href="#">
-                            <img
-                              src="soccer-dark/assets/images/samples/post-img5.jpg"
-                              alt
-                            />
+                            <img src="soccer-dark/assets/images/samples/post-img5.jpg" />
                           </a>
                         </figure>
                         <div className="posts__inner card__content">
-                          <a href="#" className="posts__cta" />{" "}
+                          <a href="#" className="posts__cta" />
                           <time dateTime="2016-08-23" className="posts__date">
                             August 28th, 2018
                           </time>
@@ -616,267 +605,8 @@ export default function MainContent() {
                       </div>
                     </div>
                   </div>
-                  {/* Post Area 1 / End */}
-                  {/* Lates News */}
-                  <div className="card card--clean">
-                    <header className="card__header card__header--has-btn">
-                      <h4>Latest News</h4>
-                      <a
-                        href="#"
-                        className="btn btn-default btn-outline btn-xs card-header__button"
-                      >
-                        See All Posts
-                      </a>
-                    </header>
-                    <div className="card__content">
-                      {/* Post Area 4 */}
-                      <div className="posts posts--cards post-grid row">
-                        <div className="post-grid__item col-sm-6">
-                          <div className="posts__item posts__item--card posts__item--category-2 card">
-                            <figure className="posts__thumb">
-                              <div className="posts__cat">
-                                <span className="label posts__cat-label">
-                                  Injuries
-                                </span>
-                              </div>
-                              <a href="#">
-                                <img
-                                  src="soccer-dark/assets/images/samples/post-img1.jpg"
-                                  alt
-                                />
-                              </a>
-                            </figure>
-                            <div className="posts__inner card__content">
-                              <a href="#" className="posts__cta" />
-                              <time
-                                dateTime="2016-08-23"
-                                className="posts__date"
-                              >
-                                August 28th, 2018
-                              </time>
-                              <h6 className="posts__title">
-                                <a href="#">
-                                  Franklin Stevens has a knee fracture and is
-                                  gonna be out
-                                </a>
-                              </h6>
-                            </div>
-                            <footer className="posts__footer card__footer">
-                              <div className="post-author">
-                                <figure className="post-author__avatar">
-                                  <img
-                                    src="soccer-dark/assets/images/samples/avatar-1.jpg"
-                                    alt="Post Author Avatar"
-                                  />
-                                </figure>
-                                <div className="post-author__info">
-                                  <h4 className="post-author__name">
-                                    James Spiegel
-                                  </h4>
-                                </div>
-                              </div>
-                              <ul className="post__meta meta">
-                                <li className="meta__item meta__item--views">
-                                  2369
-                                </li>
-                                <li className="meta__item meta__item--likes">
-                                  <a href="#">
-                                    <i className="meta-like icon-heart" /> 530
-                                  </a>
-                                </li>
-                                <li className="meta__item meta__item--comments">
-                                  <a href="#">18</a>
-                                </li>
-                              </ul>
-                            </footer>
-                          </div>
-                        </div>
-                        <div className="post-grid__item col-sm-6">
-                          <div className="posts__item posts__item--card posts__item--category-1 card">
-                            <figure className="posts__thumb">
-                              <div className="posts__cat">
-                                <span className="label posts__cat-label">
-                                  The Team
-                                </span>
-                              </div>
-                              <a href="#">
-                                <img
-                                  src="soccer-dark/assets/images/soccer/samples/_soccer_post-img4.jpg"
-                                  alt
-                                />
-                              </a>
-                            </figure>
-                            <div className="posts__inner card__content">
-                              <a href="#" className="posts__cta" />
-                              <time
-                                dateTime="2016-08-23"
-                                className="posts__date"
-                              >
-                                August 28th, 2018
-                              </time>
-                              <h6 className="posts__title">
-                                <a href="#">
-                                  Jay Rorks is only 24 points away from breaking
-                                  the record
-                                </a>
-                              </h6>
-                            </div>
-                            <footer className="posts__footer card__footer">
-                              <div className="post-author">
-                                <figure className="post-author__avatar">
-                                  <img
-                                    src="soccer-dark/assets/images/samples/avatar-2.jpg"
-                                    alt="Post Author Avatar"
-                                  />
-                                </figure>
-                                <div className="post-author__info">
-                                  <h4 className="post-author__name">
-                                    Jessica Hoops
-                                  </h4>
-                                </div>
-                              </div>
-                              <ul className="post__meta meta">
-                                <li className="meta__item meta__item--views">
-                                  2369
-                                </li>
-                                <li className="meta__item meta__item--likes">
-                                  <a href="#">
-                                    <i className="meta-like icon-heart" /> 530
-                                  </a>
-                                </li>
-                                <li className="meta__item meta__item--comments">
-                                  <a href="#">18</a>
-                                </li>
-                              </ul>
-                            </footer>
-                          </div>
-                        </div>
-                        <div className="post-grid__item col-sm-6">
-                          <div className="posts__item posts__item--card posts__item--category-1 card">
-                            <figure className="posts__thumb">
-                              <div className="posts__cat">
-                                <span className="label posts__cat-label">
-                                  The Team
-                                </span>
-                              </div>
-                              <a href="#">
-                                <img
-                                  src="soccer-dark/assets/images/samples/post-img13.jpg"
-                                  alt
-                                />
-                              </a>
-                            </figure>
-                            <div className="posts__inner card__content">
-                              <a href="#" className="posts__cta" />
-                              <time
-                                dateTime="2016-08-23"
-                                className="posts__date"
-                              >
-                                August 28th, 2018
-                              </time>
-                              <h6 className="posts__title">
-                                <a href="#">
-                                  The team is starting a new power breakfast
-                                  regimen
-                                </a>
-                              </h6>
-                            </div>
-                            <footer className="posts__footer card__footer">
-                              <div className="post-author">
-                                <figure className="post-author__avatar">
-                                  <img
-                                    src="soccer-dark/assets/images/samples/avatar-1.jpg"
-                                    alt="Post Author Avatar"
-                                  />
-                                </figure>
-                                <div className="post-author__info">
-                                  <h4 className="post-author__name">
-                                    James Spiegel
-                                  </h4>
-                                </div>
-                              </div>
-                              <ul className="post__meta meta">
-                                <li className="meta__item meta__item--views">
-                                  2369
-                                </li>
-                                <li className="meta__item meta__item--likes">
-                                  <a href="#">
-                                    <i className="meta-like icon-heart" /> 530
-                                  </a>
-                                </li>
-                                <li className="meta__item meta__item--comments">
-                                  <a href="#">18</a>
-                                </li>
-                              </ul>
-                            </footer>
-                          </div>
-                        </div>
-                        <div className="post-grid__item col-sm-6">
-                          <div className="posts__item posts__item--card posts__item--category-1 card">
-                            <figure className="posts__thumb">
-                              <div className="posts__cat">
-                                <span className="label posts__cat-label">
-                                  The Team
-                                </span>
-                              </div>
-                              <a href="#">
-                                <img
-                                  src="soccer-dark/assets/images/samples/post-img2.jpg"
-                                  alt
-                                />
-                              </a>
-                            </figure>
-                            <div className="posts__inner card__content">
-                              <a href="#" className="posts__cta" />
-                              <time
-                                dateTime="2016-08-23"
-                                className="posts__date"
-                              >
-                                August 28th, 2018
-                              </time>
-                              <h6 className="posts__title">
-                                <a href="#">
-                                  Cheerleader tryouts will start next Friday at
-                                  5pm
-                                </a>
-                              </h6>
-                            </div>
-                            <footer className="posts__footer card__footer">
-                              <div className="post-author">
-                                <figure className="post-author__avatar">
-                                  <img
-                                    src="soccer-dark/assets/images/samples/avatar-1.jpg"
-                                    alt="Post Author Avatar"
-                                  />
-                                </figure>
-                                <div className="post-author__info">
-                                  <h4 className="post-author__name">
-                                    James Spiegel
-                                  </h4>
-                                </div>
-                              </div>
-                              <ul className="post__meta meta">
-                                <li className="meta__item meta__item--views">
-                                  2369
-                                </li>
-                                <li className="meta__item meta__item--likes">
-                                  <a href="#">
-                                    <i className="meta-like icon-heart" /> 530
-                                  </a>
-                                </li>
-                                <li className="meta__item meta__item--comments">
-                                  <a href="#">18</a>
-                                </li>
-                              </ul>
-                            </footer>
-                          </div>
-                        </div>
-                      </div>
-                      {/* Post Area 4 / End */}
-                    </div>
-                  </div>
-                  {/* Lates News / End */}
-                  {/* Post Pagination */}
+                  {/* Post Area 1 / End
+                  {/* Post Pagination
                   <nav className="post-pagination" aria-label="Blog navigation">
                     <ul className="pagination pagination--condensed pagination--lg justify-content-center">
                       <li className="page-item active">
@@ -903,15 +633,15 @@ export default function MainContent() {
                         </a>
                       </li>
                     </ul>
-                  </nav>
-                  {/* Post Pagination / End */}
+                  </nav> */}
+        {/* Post Pagination / End
                 </div>
               </div>
-              {/* Content / End */}
+              Content / End
             </div>
           </div>
         </div>
-        {/* Content / End */}
+        Content / End */}
       </motion.div>
     </motion.div>
   );

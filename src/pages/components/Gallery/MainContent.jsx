@@ -2,9 +2,6 @@ import React from "react";
 import { motion } from "framer-motion";
 import { BrowserRouter as Router, Link } from "react-router-dom";
 
-// Import page specific stuff
-import logo from "../../../images/logo-full.png";
-
 export default function MainContent() {
   const easing = [0.6, -0.05, 0.01, 0.99];
   const fade1 = {
@@ -95,7 +92,7 @@ export default function MainContent() {
                   className="gallery__item-inner card"
                 >
                   <figure className="gallery__thumb">
-                    <img src="assets/images/samples/post-img4.jpg" alt />{" "}
+                    <img src="soccer-dark/assets/images/samples/post-img4.jpg" alt />{" "}
                     <span className="btn-fab gallery__btn-fab" />
                   </figure>
                   <div className="gallery__content card__content">
@@ -116,7 +113,7 @@ export default function MainContent() {
                 >
                   <figure className="gallery__thumb">
                     <img
-                      src="assets/images/soccer/samples/_soccer_post-img1.jpg"
+                      src="soccer-dark/assets/images/soccer/samples/_soccer_post-img1.jpg"
                       alt
                     />{" "}
                     <span className="btn-fab gallery__btn-fab" />
@@ -141,7 +138,7 @@ export default function MainContent() {
                 >
                   <figure className="gallery__thumb">
                     <img
-                      src="assets/images/soccer/samples/_soccer_post-img2.jpg"
+                      src="soccer-dark/assets/images/soccer/samples/_soccer_post-img1.jpg"
                       alt
                     />{" "}
                     <span className="btn-fab gallery__btn-fab" />
@@ -163,7 +160,7 @@ export default function MainContent() {
                   className="gallery__item-inner card"
                 >
                   <figure className="gallery__thumb">
-                    <img src="assets/images/samples/post-img3.jpg" alt />{" "}
+                    <img src="soccer-dark/assets/images/samples/post-img3.jpg" alt />{" "}
                     <span className="btn-fab gallery__btn-fab" />
                   </figure>
                   <div className="gallery__content card__content">
@@ -183,7 +180,7 @@ export default function MainContent() {
                   className="gallery__item-inner card"
                 >
                   <figure className="gallery__thumb">
-                    <img src="assets/images/samples/post-img1.jpg" alt />{" "}
+                    <img src="soccer-dark/assets/images/samples/post-img1.jpg" alt />{" "}
                     <span className="btn-fab gallery__btn-fab" />
                   </figure>
                   <div className="gallery__content card__content">
@@ -203,7 +200,7 @@ export default function MainContent() {
                   className="gallery__item-inner card"
                 >
                   <figure className="gallery__thumb">
-                    <img src="assets/images/samples/post-img17.jpg" alt />{" "}
+                    <img src="soccer-dark/assets/images/samples/post-img17.jpg" alt />{" "}
                     <span className="btn-fab gallery__btn-fab" />
                   </figure>
                   <div className="gallery__content card__content">
@@ -223,7 +220,7 @@ export default function MainContent() {
                   className="gallery__item-inner card"
                 >
                   <figure className="gallery__thumb">
-                    <img src="assets/images/samples/post-img5.jpg" alt />{" "}
+                    <img src="soccer-dark/assets/images/samples/post-img5.jpg" alt />{" "}
                     <span className="btn-fab gallery__btn-fab" />
                   </figure>
                   <div className="gallery__content card__content">
@@ -243,7 +240,7 @@ export default function MainContent() {
                   className="gallery__item-inner card"
                 >
                   <figure className="gallery__thumb">
-                    <img src="assets/images/samples/post-img2.jpg" alt />{" "}
+                    <img src="soccer-dark/assets/images/samples/post-img2.jpg" alt />{" "}
                     <span className="btn-fab gallery__btn-fab" />
                   </figure>
                   <div className="gallery__content card__content">
@@ -263,7 +260,7 @@ export default function MainContent() {
                   className="gallery__item-inner card"
                 >
                   <figure className="gallery__thumb">
-                    <img src="assets/images/samples/post-img13.jpg" alt />{" "}
+                    <img src="soccer-dark/assets/images/samples/post-img13.jpg" alt />{" "}
                     <span className="btn-fab gallery__btn-fab" />
                   </figure>
                   <div className="gallery__content card__content">

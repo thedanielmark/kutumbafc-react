@@ -4482,7 +4482,7 @@ abbr.required {
   .lightbox-holder__overlay--video:before {
   border-color: #9fe900;
 }
-.mfp-fade.mfp-bg {
+/* .mfp-fade.mfp-bg {
   opacity: 0;
   transition: all 0.15s ease-out;
 }
@@ -4501,7 +4501,7 @@ abbr.required {
 }
 .mfp-fade.mfp-wrap.mfp-removing .mfp-content {
   opacity: 0;
-}
+} */
 div.cs-select {
   display: inline-block;
   vertical-align: middle;

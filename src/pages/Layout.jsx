@@ -1,7 +1,5 @@
 import React from "react";
 import { BrowserRouter as Router, Link } from "react-router-dom";
-import TopBar from "./TopBar";
-import BottomNav from "./BottomNav";
 
 export default function Layout(props) {
   return (
@@ -109,129 +107,6 @@ export default function Layout(props) {
                   info@Kutumba.com
                 </a>
               </li>
-              <li className="info-block__item info-block__item--shopping-cart js-info-block__item--onhover">
-                <a href="#" className="info-block__link-wrapper">
-                  <div className="df-icon-stack df-icon-stack--bag">
-                    <svg role="img" className="df-icon df-icon--bag">
-                      <use xlinkHref="soccer-dark/assets/images/icons-basket.svg#bag" />
-                    </svg>{" "}
-                    <svg role="img" className="df-icon df-icon--bag-handle">
-                      <use xlinkHref="soccer-dark/assets/images/icons-basket.svg#bag-handle" />
-                    </svg>
-                  </div>
-                  <h6 className="info-block__heading">Your Bag (8 items)</h6>
-                  <span className="info-block__cart-sum">$256,30</span>
-                </a>
-                {/* Dropdown Shopping Cart */}
-                <ul className="header-cart">
-                  <li className="header-cart__item">
-                    <figure className="header-cart__product-thumb">
-                      <a href="soccer-dark/_soccer_shop-product.html">
-                        <img src="soccer-dark/assets/images/soccer/samples/_soccer_cart-sm-1.jpg" />
-                      </a>
-                    </figure>
-                    <div className="header-cart__inner">
-                      <span className="header-cart__product-cat">Sneakers</span>
-                      <h5 className="header-cart__product-name">
-                        <a href="soccer-dark/_soccer_shop-product.html">
-                          Sundown Sneaker
-                        </a>
-                      </h5>
-                      <div className="header-cart__product-ratings">
-                        <i className="fas fa-star" />{" "}
-                        <i className="fas fa-star" />{" "}
-                        <i className="fas fa-star" />{" "}
-                        <i className="fas fa-star" />{" "}
-                        <i className="fas fa-star empty" />
-                      </div>
-                      <div className="header-cart__product-sum">
-                        <span className="header-cart__product-price">
-                          $28.00
-                        </span>{" "}
-                        x <span className="header-cart__product-count">2</span>
-                      </div>
-                      <div className="fas fa-times header-cart__close" />
-                    </div>
-                  </li>
-                  <li className="header-cart__item">
-                    <figure className="header-cart__product-thumb">
-                      <a href="soccer-dark/_soccer_shop-product.html">
-                        <img src="soccer-dark/assets/images/soccer/samples/_soccer_cart-sm-4.jpg" />
-                      </a>
-                    </figure>
-                    <div className="header-cart__inner">
-                      <span className="header-cart__product-cat">Sneakers</span>
-                      <h5 className="header-cart__product-name">
-                        <a href="soccer-dark/_soccer_shop-product.html">
-                          Atlantik Sneaker
-                        </a>
-                      </h5>
-                      <div className="header-cart__product-ratings">
-                        <i className="fas fa-star" />{" "}
-                        <i className="fas fa-star" />{" "}
-                        <i className="fas fa-star" />{" "}
-                        <i className="fas fa-star" />{" "}
-                        <i className="fas fa-star" />
-                      </div>
-                      <div className="header-cart__product-sum">
-                        <span className="header-cart__product-price">
-                          $30.00
-                        </span>{" "}
-                        x <span className="header-cart__product-count">4</span>
-                      </div>
-                      <div className="fas fa-times header-cart__close" />
-                    </div>
-                  </li>
-                  <li className="header-cart__item">
-                    <figure className="header-cart__product-thumb">
-                      <a href="soccer-dark/_soccer_shop-product.html">
-                        <img src="soccer-dark/assets/images/soccer/samples/_soccer_cart-sm-2.jpg" />
-                      </a>
-                    </figure>
-                    <div className="header-cart__inner">
-                      <span className="header-cart__product-cat">Sneakers</span>
-                      <h5 className="header-cart__product-name">
-                        <a href="soccer-dark/_soccer_shop-product.html">
-                          Aquarium Sneaker
-                        </a>
-                      </h5>
-                      <div className="header-cart__product-ratings">
-                        <i className="fas fa-star" />{" "}
-                        <i className="fas fa-star" />{" "}
-                        <i className="fas fa-star" />{" "}
-                        <i className="fas fa-star empty" />{" "}
-                        <i className="fas fa-star empty" />
-                      </div>
-                      <div className="header-cart__product-sum">
-                        <span className="header-cart__product-price">
-                          $28.00
-                        </span>{" "}
-                        x <span className="header-cart__product-count">1</span>
-                      </div>
-                      <div className="fas fa-times header-cart__close" />
-                    </div>
-                  </li>
-                  <li className="header-cart__item header-cart__item--subtotal">
-                    <span className="header-cart__subtotal">Cart Subtotal</span>{" "}
-                    <span className="header-cart__subtotal-sum">$282.00</span>
-                  </li>
-                  <li className="header-cart__item header-cart__item--action">
-                    <a
-                      href="soccer-dark/_soccer_shop-cart.html"
-                      className="btn btn-default btn-block"
-                    >
-                      Go to Cart
-                    </a>{" "}
-                    <a
-                      href="soccer-dark/_soccer_shop-checkout.html"
-                      className="btn btn-primary-inverse btn-block"
-                    >
-                      Checkout
-                    </a>
-                  </li>
-                </ul>
-                {/* Dropdown Shopping Cart / End */}
-              </li>
             </ul>
           </div>
         </div>
@@ -264,35 +139,8 @@ export default function Layout(props) {
                   <li>
                     <Link to={"/fixtures"}>Fixtures</Link>
                   </li>
-                  <li className="has-children">
-                    <span className="main-nav__toggle" />
-                    <a href="_soccer_shop-grid.html">Shop</a>
-                    <ul className="main-nav__sub">
-                      <li className>
-                        <a href="_soccer_shop-grid.html">Shop - Grid</a>
-                      </li>
-                      <li className>
-                        <a href="_soccer_shop-list.html">Shop - List</a>
-                      </li>
-                      <li className>
-                        <a href="_soccer_shop-product.html">Single Product</a>
-                      </li>
-                      <li className>
-                        <a href="_soccer_shop-cart.html">Shopping Cart</a>
-                      </li>
-                      <li className>
-                        <a href="_soccer_shop-checkout.html">Checkout</a>
-                      </li>
-                      <li className>
-                        <a href="_soccer_shop-wishlist.html">Wishlist</a>
-                      </li>
-                      <li className>
-                        <a href="_soccer_shop-login.html">Login</a>
-                      </li>
-                      <li className>
-                        <a href="_soccer_shop-account.html">Account</a>
-                      </li>
-                    </ul>
+                  <li>
+                    <a href="https://store.kutumbafc.com">Store</a>
                   </li>
                   <li>
                     <Link to={"/newsroom"}>Newsroom</Link>
@@ -441,9 +289,9 @@ export default function Layout(props) {
               <div className="row">
                 <div className="col-md-4">
                   <div className="footer-copyright">
-                    <a href="index.html">Kutumba FC</a> &copy; 2020 &nbsp; |
+                    <a href="index.html">Kutumba FC</a> &copy; 2021 &nbsp; |
                     &nbsp;{" "}
-                    <a href="https://mixspace.xyz" target="top">
+                    <a href="https://mixspace.io" target="top">
                       MixSpace Internet Services
                     </a>
                   </div>
