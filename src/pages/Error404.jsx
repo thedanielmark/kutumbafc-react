@@ -8,7 +8,7 @@ export default class Error404 extends React.Component {
       <HelmetProvider>
         <React.Fragment>
           <Helmet>
-            <title>Error 404 | Pattarai</title>
+            <title>Error 404 | KuTumba FC</title>
           </Helmet>
           <MainContent></MainContent>
         </React.Fragment>

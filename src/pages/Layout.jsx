@@ -299,24 +299,19 @@ export default function Layout(props) {
                 <div className="col-md-8">
                   <ul className="footer-nav footer-nav--right footer-nav--condensed footer-nav--sm">
                     <li className="footer-nav__item">
-                      <a href="index.html">Home</a>
+                      <Link to={"/"}>Home</Link>
                     </li>
                     <li className="footer-nav__item">
-                      <a href="soccer-dark/_soccer_features-shortcodes.html">
-                        Features
-                      </a>
+                      <Link to={"/terms-of-service"}>Terms</Link>
                     </li>
                     <li className="footer-nav__item">
-                      <a href="index.html">Statistics</a>
+                      <Link to={"/privacy-policy"}>Privacy</Link>
                     </li>
                     <li className="footer-nav__item">
-                      <a href="index.html">The Team</a>
+                      <Link to={"/dpa"}>DPA</Link>
                     </li>
                     <li className="footer-nav__item">
-                      <a href="index.html">News</a>
-                    </li>
-                    <li className="footer-nav__item">
-                      <a href="index.html">Shop</a>
+                      <a href="https://accounts.kutumbafc.com">Sign In</a>
                     </li>
                   </ul>
                 </div>

@@ -51,6 +51,32 @@
   <script src="soccer-dark/assets/js/init.js"></script>
   <script src="soccer-dark/assets/js/custom.js"></script>
 
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-analytics.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-messaging.js"></script>
+
+
+  <script>
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+      apiKey: "AIzaSyA8j9QWvWcXrOKet349xnWUJtDn6BxOvqk",
+      authDomain: "kutumba-fc.firebaseapp.com",
+      projectId: "kutumba-fc",
+      storageBucket: "kutumba-fc.appspot.com",
+      messagingSenderId: "558856339756",
+      appId: "1:558856339756:web:1b8374422b48056dec2c89",
+      measurementId: "G-MDEDDTHKBP"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
+
   <script>
     localStorage.APIRoute = "http://localhost:8080/kutumbafc-api/";
   </script>

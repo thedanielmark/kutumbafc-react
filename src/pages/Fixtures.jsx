@@ -1,14 +1,22 @@
-import React from "react";
+import React, { Component } from "react";
+import { Helmet, HelmetProvider } from "react-helmet-async";
+
 import Layout from "./Layout";
 import MainContent from "./components/Fixtures/MainContent";
 
-//Functional Component
-export default function Fixtures() {
-  return (
-    <div>
-      <Layout>
-        <MainContent></MainContent>
-      </Layout>
-    </div>
-  );
+export default class Fixtures extends React.Component {
+  render() {
+    return (
+      <HelmetProvider>
+        <React.Fragment>
+          <Helmet>
+            <title>Fixtures | KuTumba FC</title>
+          </Helmet>
+          <Layout>
+            <MainContent></MainContent>
+          </Layout>
+        </React.Fragment>
+      </HelmetProvider>
+    );
+  }
 }

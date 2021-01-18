@@ -2,9 +2,6 @@ import React from "react";
 import { motion } from "framer-motion";
 import { BrowserRouter as Router, Link } from "react-router-dom";
 
-// Import page specific stuff
-import logo from "../../../images/logo-full.png";
-
 export default function MainContent() {
   const easing = [0.6, -0.05, 0.01, 0.99];
   const fade1 = {

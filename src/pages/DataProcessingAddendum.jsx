@@ -2,15 +2,15 @@ import React, { Component } from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
 import Layout from "./Layout";
-import MainContent from "./components/Gallery/MainContent";
+import MainContent from "./components/DataProcessingAddendum/MainContent";
 
-export default class Gallery extends React.Component {
+export default class DataProcessingAddendum extends React.Component {
   render() {
     return (
       <HelmetProvider>
         <React.Fragment>
           <Helmet>
-            <title>Gallery | KuTumba FC</title>
+            <title>Data Processing Addendum | KuTumba FC</title>
           </Helmet>
           <Layout>
             <MainContent></MainContent>
