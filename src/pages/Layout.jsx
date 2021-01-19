@@ -140,16 +140,16 @@ export default function Layout(props) {
                     <Link to={"/fixtures"}>Fixtures</Link>
                   </li>
                   <li>
-                    <a href="https://store.kutumbafc.com">Store</a>
-                  </li>
-                  <li>
                     <Link to={"/newsroom"}>Newsroom</Link>
                   </li>
                   <li>
                     <Link to={"/gallery"}>Gallery</Link>
                   </li>
                   <li>
-                    <a href="https://blog.kutumbafc.com/" target="top">
+                    <a href="https://store.kutumbafc.com">Store</a>
+                  </li>
+                  <li>
+                    <a href="https://kutumbafc.medium.com/">
                       Blog
                     </a>
                   </li>
