@@ -165,7 +165,7 @@ export default function MainContent() {
                       <div className="post-author">
                         <figure className="post-author__avatar">
                           <img
-                            src="soccer-dark/assets/images/samples/avatar-1.jpg"
+                            src="soccer-dark/soccer-dark/soccer-dark/soccer-dark/assets/images/samples/avatar-1.jpg"
                             alt="Post Author Avatar"
                           />
                         </figure>
@@ -228,7 +228,7 @@ export default function MainContent() {
                       <div className="post-author">
                         <figure className="post-author__avatar">
                           <img
-                            src="soccer-dark/assets/images/samples/avatar-1.jpg"
+                            src="soccer-dark/soccer-dark/soccer-dark/soccer-dark/assets/images/samples/avatar-1.jpg"
                             alt="Post Author Avatar"
                           />
                         </figure>
@@ -300,348 +300,517 @@ export default function MainContent() {
             </div>
           </div>
         </div>
-        {/* Content
-		================================================== */}
-        {/* <div className="site-content">
-          <div className="container">
-            <div className="row d-flex justify-content-center">
-              Content
-              <div className="content col-lg-10">
-                <div>
-                  {/* Main News Banner
-                  <div className="main-news-banner main-news-banner--soccer-ball">
-                    <div className="main-news-banner__inner">
-                      <div className="posts posts--simple-list posts--simple-list--xlg">
-                        <div className="posts__item posts__item--category-1">
-                          <div className="posts__inner">
-                            <div className="posts__cat">
-                              <span className="label posts__cat-label">
-                                The Team
-                              </span>
-                            </div>
-                            <h6 className="posts__title">
-                              <a href="#">
-                                Today was unveiled the
-                                <span className="main-news-banner__highlight">
-                                  New Football
-                                </span>
-                                for the league
-                              </a>
-                            </h6>
-                            <time dateTime="2016-08-23" className="posts__date">
-                              August 23rd, 2016
-                            </time>
-                            <div className="posts__excerpt">
-                              Lorem ipsum dolor sit amet, consectetur adipisi
-                              nel elit, sed do eiusmod tempor incididunt ut
-                              labore et dolore.
-                            </div>
-                            <div className="posts__more">
-                              <a
-                                href="#"
-                                className="btn btn-inverse btn-sm btn-outline btn-icon-right btn-condensed"
-                              >
-                                Read More
-                                <i className="fas fa-plus text-primary" />
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  {/* Main News Banner / End */}
-        {/* Latest Blog Posts
-                  <div className="card card--clean">
-                    <header className="card__header card__header--has-filter">
-                      <h4>Latest Blog Posts</h4>
-                    </header>
-                  </div>
-                  Latest Blog Posts / End */}
-        {/* Post Area 1 
-                  <div
-                    id="blog-posts-container"
-                    className="posts posts--cards post-grid row"
-                  >
-                    {/*
-                    <div className="post-grid__item col-sm-6">
-                      <div className="posts__item posts__item--card posts__item--category-1 card">
-                        <figure className="posts__thumb">
-                          <div className="posts__cat">
-                            <span className="label posts__cat-label">
-                              The Team
-                            </span>
-                          </div>
-                          <a href="#">
-                            <img src="soccer-dark/assets/images/soccer/samples/_soccer_post-img3.jpg" />
-                          </a>
-                        </figure>
-                        <div className="posts__inner card__content">
-                          <a href="#" className="posts__cta" />{" "}
-                          <time dateTime="2016-08-23" className="posts__date">
-                            August 28th, 2018
-                          </time>
-                          <h6 className="posts__title">
-                            <a href="#">
-                              Brian Kingster saw the red card after a kick
-                              against Jason T.
-                            </a>
-                          </h6>
-                          <div className="posts__excerpt">
-                            Lorem ipsum dolor sit amet, consectetur adipisi nel
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Ut enim ad mini veniam, quis
-                            nostrud en derum sum laborem.
-                          </div>
-                        </div>
-                        <footer className="posts__footer card__footer">
-                          <div className="post-author">
-                            <figure className="post-author__avatar">
-                              <img
-                                src="soccer-dark/assets/images/samples/avatar-1.jpg"
-                                alt="Post Author Avatar"
-                              />
-                            </figure>
-                            <div className="post-author__info">
-                              <h4 className="post-author__name">
-                                James Spiegel
-                              </h4>
-                            </div>
-                          </div>
-                          <ul className="post__meta meta">
-                            <li className="meta__item meta__item--views">
-                              2369
-                            </li>
-                            <li className="meta__item meta__item--likes">
-                              <a href="#">
-                                <i className="meta-like icon-heart" /> 530
-                              </a>
-                            </li>
-                            <li className="meta__item meta__item--comments">
-                              <a href="#">18</a>
-                            </li>
-                          </ul>
-                        </footer>
-                      </div>
-                    </div>
-                    <div className="post-grid__item col-sm-6">
-                      <div className="posts__item posts__item--card posts__item--category-1 card">
-                        <figure className="posts__thumb">
-                          <div className="posts__cat">
-                            <span className="label posts__cat-label">
-                              The Team
-                            </span>
-                          </div>
-                          <a href="#">
-                            <img src="soccer-dark/assets/images/soccer/samples/_soccer_post-img1.jpg" />
-                          </a>
-                        </figure>
-                        <div className="posts__inner card__content">
-                          <a href="#" className="posts__cta" />
-                          <time dateTime="2016-08-23" className="posts__date">
-                            August 28th, 2018
-                          </time>
-                          <h6 className="posts__title">
-                            <a href="#">
-                              The new eco friendly stadium won a Leafy Award in
-                              2016
-                            </a>
-                          </h6>
-                          <div className="posts__excerpt">
-                            Lorem ipsum dolor sit amet, consectetur adipisi nel
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Ut enim ad mini veniam, quis
-                            nostrud en derum sum laborem.
-                          </div>
-                        </div>
-                        <footer className="posts__footer card__footer">
-                          <div className="post-author">
-                            <figure className="post-author__avatar">
-                              <img
-                                src="soccer-dark/assets/images/samples/avatar-2.jpg"
-                                alt="Post Author Avatar"
-                              />
-                            </figure>
-                            <div className="post-author__info">
-                              <h4 className="post-author__name">
-                                Jessica Hoops
-                              </h4>
-                            </div>
-                          </div>
-                          <ul className="post__meta meta">
-                            <li className="meta__item meta__item--views">
-                              2369
-                            </li>
-                            <li className="meta__item meta__item--likes">
-                              <a href="#">
-                                <i className="meta-like icon-heart" /> 530
-                              </a>
-                            </li>
-                            <li className="meta__item meta__item--comments">
-                              <a href="#">18</a>
-                            </li>
-                          </ul>
-                        </footer>
-                      </div>
-                    </div>
-                    <div className="post-grid__item col-sm-6">
-                      <div className="posts__item posts__item--card posts__item--category-1 card">
-                        <figure className="posts__thumb">
-                          <div className="posts__cat">
-                            <span className="label posts__cat-label">
-                              The Team
-                            </span>
-                          </div>
-                          <a href="#">
-                            <img src="soccer-dark/assets/images/samples/post-img3.jpg" />
-                          </a>
-                        </figure>
-                        <div className="posts__inner card__content">
-                          <a href="#" className="posts__cta" />
-                          <time dateTime="2016-08-23" className="posts__date">
-                            August 28th, 2018
-                          </time>
-                          <h6 className="posts__title">
-                            <a href="#">
-                              The team is taking a summer vacation on Woody
-                              Valley
-                            </a>
-                          </h6>
-                          <div className="posts__excerpt">
-                            Lorem ipsum dolor sit amet, consectetur adipisi nel
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Ut enim ad mini veniam, quis
-                            nostrud en derum sum laborem.
-                          </div>
-                        </div>
-                        <footer className="posts__footer card__footer">
-                          <div className="post-author">
-                            <figure className="post-author__avatar">
-                              <img
-                                src="soccer-dark/assets/images/samples/avatar-2.jpg"
-                                alt="Post Author Avatar"
-                              />
-                            </figure>
-                            <div className="post-author__info">
-                              <h4 className="post-author__name">
-                                Jessica Hoops
-                              </h4>
-                            </div>
-                          </div>
-                          <ul className="post__meta meta">
-                            <li className="meta__item meta__item--views">
-                              2369
-                            </li>
-                            <li className="meta__item meta__item--likes">
-                              <a href="#">
-                                <i className="meta-like icon-heart" /> 530
-                              </a>
-                            </li>
-                            <li className="meta__item meta__item--comments">
-                              <a href="#">18</a>
-                            </li>
-                          </ul>
-                        </footer>
-                      </div>
-                    </div>
-                    <div className="post-grid__item col-sm-6">
-                      <div className="posts__item posts__item--card posts__item--category-1 card">
-                        <figure className="posts__thumb">
-                          <div className="posts__cat">
-                            <span className="label posts__cat-label">
-                              The Team
-                            </span>
-                          </div>
-                          <a href="#">
-                            <img src="soccer-dark/assets/images/samples/post-img5.jpg" />
-                          </a>
-                        </figure>
-                        <div className="posts__inner card__content">
-                          <a href="#" className="posts__cta" />
-                          <time dateTime="2016-08-23" className="posts__date">
-                            August 28th, 2018
-                          </time>
-                          <h6 className="posts__title">
-                            <a href="#">
-                              Kutumba FC team is appearing in L.A. beach for
-                              chartiy
-                            </a>
-                          </h6>
-                          <div className="posts__excerpt">
-                            Lorem ipsum dolor sit amet, consectetur adipisi nel
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Ut enim ad mini veniam, quis
-                            nostrud en derum sum laborem.
-                          </div>
-                        </div>
-                        <footer className="posts__footer card__footer">
-                          <div className="post-author">
-                            <figure className="post-author__avatar">
-                              <img
-                                src="soccer-dark/assets/images/samples/avatar-1.jpg"
-                                alt="Post Author Avatar"
-                              />
-                            </figure>
-                            <div className="post-author__info">
-                              <h4 className="post-author__name">
-                                James Spiegel
-                              </h4>
-                            </div>
-                          </div>
-                          <ul className="post__meta meta">
-                            <li className="meta__item meta__item--views">
-                              2369
-                            </li>
-                            <li className="meta__item meta__item--likes">
-                              <a href="#">
-                                <i className="meta-like icon-heart" /> 530
-                              </a>
-                            </li>
-                            <li className="meta__item meta__item--comments">
-                              <a href="#">18</a>
-                            </li>
-                          </ul>
-                        </footer>
-                      </div>
-                    </div>
-                  </div>
-                  {/* Post Area 1 / End
-                  {/* Post Pagination
-                  <nav className="post-pagination" aria-label="Blog navigation">
-                    <ul className="pagination pagination--condensed pagination--lg justify-content-center">
-                      <li className="page-item active">
-                        <a className="page-link" href="#">
-                          1
-                        </a>
-                      </li>
-                      <li className="page-item">
-                        <a className="page-link" href="#">
-                          2
-                        </a>
-                      </li>
-                      <li className="page-item">
-                        <a className="page-link" href="#">
-                          3
-                        </a>
-                      </li>
-                      <li className="page-item">
-                        <span className="page-link">...</span>
-                      </li>
-                      <li className="page-item">
-                        <a className="page-link" href="#">
-                          16
-                        </a>
-                      </li>
-                    </ul>
-                  </nav> */}
-        {/* Post Pagination / End
+        <div className="spacer py-md-5"></div>
+        <div className="container">
+          <div className="card-columns">
+            <div className="posts__item posts__item--card posts__item--category-1 card">
+              <figure className="posts__thumb">
+                <div className="posts__cat">
+                  <span className="label posts__cat-label">The Team</span>
                 </div>
+                <a href="#">
+                  <img src="soccer-dark/assets/images/samples/team.jpeg" />
+                </a>
+              </figure>
+              <div className="posts__inner card__content">
+                <Link to={"/gallery"} className="posts__cta" />
+                <time dateTime="2016-08-23" className="posts__date">
+                  August 23rd, 2018
+                </time>
+                <h6 className="posts__title">
+                  <a href="">Check out our lineup</a>
+                </h6>
               </div>
-              Content / End
+              <footer className="posts__footer card__footer">
+                <div className="post-author">
+                  <div className="post-author__info">
+                    <Link to={"/gallery"}>
+                      <h4 className="post-author__name text-white">
+                        Go to gallery
+                      </h4>
+                    </Link>
+                  </div>
+                </div>
+              </footer>
+            </div>
+            <div className="posts__item posts__item--card posts__item--category-1 card">
+              <figure className="posts__thumb">
+                <div className="posts__cat">
+                  <span className="label posts__cat-label">The Team</span>
+                </div>
+                <a href="#">
+                  <img src="soccer-dark/assets/images/samples/post-img3.jpg" />
+                </a>
+              </figure>
+              <div className="posts__inner card__content">
+                <a href="#" className="posts__cta" />{" "}
+                <time dateTime="2016-08-23" className="posts__date">
+                  August 23rd, 2018
+                </time>
+                <h6 className="posts__title">
+                  <a href="#">
+                    The new eco friendly stadium won a Leafy Award in 2016
+                  </a>
+                </h6>
+              </div>
+              <footer className="posts__footer card__footer">
+                <div className="post-author">
+                  <figure className="post-author__avatar">
+                    <img
+                      src="soccer-dark/assets/images/samples/avatar-2.jpg"
+                      alt="Post Author Avatar"
+                    />
+                  </figure>
+                  <div className="post-author__info">
+                    <h4 className="post-author__name">Jessica Hoops</h4>
+                  </div>
+                </div>
+                <ul className="post__meta meta">
+                  <li className="meta__item meta__item--views">2369</li>
+                  <li className="meta__item meta__item--likes">
+                    <a href="#">
+                      <i className="meta-like icon-heart" /> 530
+                    </a>
+                  </li>
+                  <li className="meta__item meta__item--comments">
+                    <a href="#">18</a>
+                  </li>
+                </ul>
+              </footer>
+            </div>
+            <div className="posts__item posts__item--card posts__item--category-1 card">
+              <figure className="posts__thumb">
+                <div className="posts__cat">
+                  <span className="label posts__cat-label">The Team</span>
+                </div>
+                <a href="#">
+                  <img src="soccer-dark/assets/images/samples/post-img5.jpg" />
+                </a>
+              </figure>
+              <div className="posts__inner card__content">
+                <a href="#" className="posts__cta" />{" "}
+                <time dateTime="2016-08-23" className="posts__date">
+                  August 23rd, 2018
+                </time>
+                <h6 className="posts__title">
+                  <a href="#">
+                    The Alchemists team is appearing in L.A. Beach for charity
+                  </a>
+                </h6>
+              </div>
+              <footer className="posts__footer card__footer">
+                <div className="post-author">
+                  <figure className="post-author__avatar">
+                    <img
+                      src="soccer-dark/assets/images/samples/avatar-1.jpg"
+                      alt="Post Author Avatar"
+                    />
+                  </figure>
+                  <div className="post-author__info">
+                    <h4 className="post-author__name">James Spiegel</h4>
+                  </div>
+                </div>
+                <ul className="post__meta meta">
+                  <li className="meta__item meta__item--views">2369</li>
+                  <li className="meta__item meta__item--likes">
+                    <a href="#">
+                      <i className="meta-like icon-heart" /> 530
+                    </a>
+                  </li>
+                  <li className="meta__item meta__item--comments">
+                    <a href="#">18</a>
+                  </li>
+                </ul>
+              </footer>
+            </div>
+            <div className="posts__item posts__item--card posts__item--category-2 card">
+              <figure className="posts__thumb">
+                <div className="posts__cat">
+                  <span className="label posts__cat-label">Injuries</span>
+                </div>
+                <a href="#">
+                  <img src="soccer-dark/assets/images/samples/youtube.jpg" />
+                </a>
+              </figure>
+              <div className="posts__inner card__content">
+                <a
+                  href="https://www.youtube.com/channel/UCrEK3tcWn52yhJ1w9LaEBFg"
+                  className="posts__cta"
+                />{" "}
+                <time dateTime="2016-08-23" className="posts__date">
+                  August 23rd, 2018
+                </time>
+                <h6 className="posts__title">
+                  <a href="#">Get access to behind-the-scenes footage</a>
+                </h6>
+              </div>
+              <footer className="posts__footer card__footer">
+                <div className="post-author">
+                  <div className="post-author__info">
+                    <h4 className="post-author__name text-white">
+                      Go to YouTube
+                    </h4>
+                  </div>
+                </div>
+                <ul className="post__meta meta">
+                  <li className="meta__item meta__item--views">2369</li>
+                  <li className="meta__item meta__item--likes">
+                    <a href="#">
+                      <i className="meta-like icon-heart" /> 530
+                    </a>
+                  </li>
+                  <li className="meta__item meta__item--comments">
+                    <a href="#">18</a>
+                  </li>
+                </ul>
+              </footer>
+            </div>
+            <div className="posts__item posts__item--card posts__item--quote card">
+              <div className="card__content">
+                <blockquote className="blockquote blockquote--card">
+                  <p className="blockquote__content">
+                    The most{" "}
+                    <span className="blockquote-stress">important</span> thing
+                    about soccer is{" "}
+                    <span className="blockquote-stress">the passion</span> you
+                    feel
+                  </p>
+                  <footer className="blockquote__footer">
+                    <cite className="blockquote__cite">
+                      <span className="blockquote__author-name">
+                        Johann Ratnaiya
+                      </span>{" "}
+                      <span className="blockquote__author-info">
+                        KuTumba FC Coach
+                      </span>
+                    </cite>
+                  </footer>
+                </blockquote>
+              </div>
+            </div>
+            <div className="posts__item posts__item--card posts__item--category-1 card">
+              <div className="posts__inner card__content">
+                <div className="posts__cat posts__cat--flow">
+                  <span className="label posts__cat-label">The Team</span>
+                </div>
+                <h6 className="posts__title">
+                  <a href="#">
+                    The team will attend a charity event in Malibu this Saturday
+                  </a>
+                </h6>
+                <time dateTime="2016-08-23" className="posts__date">
+                  August 23rd, 2018
+                </time>
+              </div>
+              <footer className="posts__footer card__footer">
+                <div className="post-author">
+                  <figure className="post-author__avatar">
+                    <img
+                      src="soccer-dark/assets/images/samples/avatar-1.jpg"
+                      alt="Post Author Avatar"
+                    />
+                  </figure>
+                  <div className="post-author__info">
+                    <h4 className="post-author__name">James Spiegel</h4>
+                  </div>
+                </div>
+                <ul className="post__meta meta">
+                  <li className="meta__item meta__item--views">2369</li>
+                  <li className="meta__item meta__item--likes">
+                    <a href="#">
+                      <i className="meta-like icon-heart" /> 530
+                    </a>
+                  </li>
+                  <li className="meta__item meta__item--comments">
+                    <a href="#">18</a>
+                  </li>
+                </ul>
+              </footer>
+            </div>
+            <div className="posts__item posts__item--card posts__item--category-1 card">
+              <figure className="posts__thumb">
+                <div className="posts__cat">
+                  <span className="label posts__cat-label">The Team</span>
+                </div>
+                <a href="#">
+                  <img src="soccer-dark/assets/images/samples/sponsors.jpg" />
+                </a>
+              </figure>
+              <div className="posts__inner card__content">
+                <a href="#" className="posts__cta" />{" "}
+                <time dateTime="2016-08-23" className="posts__date">
+                  August 23rd, 2018
+                </time>
+                <h6 className="posts__title">
+                  <a href="#">Learn more about our sponsors</a>
+                </h6>
+              </div>
+              <footer className="posts__footer card__footer">
+                <div className="post-author">
+                  <figure className="post-author__avatar">
+                    <img
+                      src="soccer-dark/assets/images/samples/avatar-2.jpg"
+                      alt="Post Author Avatar"
+                    />
+                  </figure>
+                  <div className="post-author__info">
+                    <h4 className="post-author__name">Jessica Hoops</h4>
+                  </div>
+                </div>
+                <ul className="post__meta meta">
+                  <li className="meta__item meta__item--views">2369</li>
+                  <li className="meta__item meta__item--likes">
+                    <a href="#">
+                      <i className="meta-like icon-heart" /> 530
+                    </a>
+                  </li>
+                  <li className="meta__item meta__item--comments">
+                    <a href="#">18</a>
+                  </li>
+                </ul>
+              </footer>
+            </div>
+            <a
+              href="https://facebook.com/kutumbafc"
+              className="btn-social-counter btn-social-counter--card btn-social-counter--fb card"
+              target="top"
+            >
+              <div className="btn-social-counter__logo">
+                <img
+                  src="soccer-dark/assets/images/social-logo-facebook.png"
+                  alt="Facebook"
+                />
+              </div>
+              <footer className="btn-social-counter__footer">
+                <h6 className="btn-social-counter__title">
+                  Like Our Facebook Page
+                </h6>
+                <span className="btn-social-counter__count">83600 Likes</span>
+                <span className="btn-social-counter__add-icon" />
+              </footer>
+            </a>
+            <div className="posts__item posts__item--card posts__item--category-1 card">
+              <figure className="posts__thumb">
+                <div className="posts__cat">
+                  <span className="label posts__cat-label">The Team</span>
+                </div>
+                <a href="#">
+                  <img src="soccer-dark/assets/images/samples/careers.jpg" />
+                </a>
+              </figure>
+              <div className="posts__inner card__content">
+                <a href="#" className="posts__cta" />{" "}
+                <time dateTime="2016-08-23" className="posts__date">
+                  August 23rd, 2018
+                </time>
+                <h6 className="posts__title">
+                  <a href="#">Apply for a career at KuTumba FC</a>
+                </h6>
+              </div>
+              <footer className="posts__footer card__footer">
+                <div className="post-author">
+                  <figure className="post-author__avatar">
+                    <img
+                      src="soccer-dark/assets/images/samples/avatar-2.jpg"
+                      alt="Post Author Avatar"
+                    />
+                  </figure>
+                  <div className="post-author__info">
+                    <h4 className="post-author__name">Jessica Hoops</h4>
+                  </div>
+                </div>
+                <ul className="post__meta meta">
+                  <li className="meta__item meta__item--views">2369</li>
+                  <li className="meta__item meta__item--likes">
+                    <a href="#">
+                      <i className="meta-like icon-heart" /> 530
+                    </a>
+                  </li>
+                  <li className="meta__item meta__item--comments">
+                    <a href="#">18</a>
+                  </li>
+                </ul>
+              </footer>
+            </div>
+            <a
+              href="https://twitter.com/kutumbafc"
+              className="btn-social-counter btn-social-counter--card btn-social-counter--twitter card"
+              target="top"
+            >
+              <div className="btn-social-counter__logo">
+                <img
+                  src="soccer-dark/assets/images/social-logo-twitter.png"
+                  alt="Twitter"
+                />
+              </div>
+              <footer className="btn-social-counter__footer">
+                <h6 className="btn-social-counter__title">
+                  Follow Us on Twitter
+                </h6>
+                <span className="btn-social-counter__count">580 Followers</span>{" "}
+                <span className="btn-social-counter__add-icon" />
+              </footer>
+            </a>
+            <div className="posts__item posts__item--card posts__item--category-1 card">
+              <figure className="posts__thumb">
+                <div className="posts__cat">
+                  <span className="label posts__cat-label">The Team</span>
+                </div>
+                <a href="#">
+                  <img src="soccer-dark/assets/images/samples/blog.jpg" />
+                </a>
+              </figure>
+              <div className="posts__inner card__content">
+                <a href="#" className="posts__cta" />{" "}
+                <time dateTime="2016-08-23" className="posts__date">
+                  August 23rd, 2018
+                </time>
+                <h6 className="posts__title">
+                  <a href="#">Read our blog to stay updated</a>
+                </h6>
+              </div>
+              <footer className="posts__footer card__footer">
+                <div className="post-author">
+                  <div className="post-author__info">
+                    <a href="https://kutumbafc.medium.com">
+                      <h4 className="post-author__name text-white">
+                        Go to blog
+                      </h4>
+                    </a>
+                  </div>
+                </div>
+                <ul className="post__meta meta">
+                  <li className="meta__item meta__item--views">2369</li>
+                  <li className="meta__item meta__item--likes">
+                    <a href="#">
+                      <i className="meta-like icon-heart" /> 530
+                    </a>
+                  </li>
+                  <li className="meta__item meta__item--comments">
+                    <a href="#">18</a>
+                  </li>
+                </ul>
+              </footer>
+            </div>
+            <div className="posts__item posts__item--card posts__item--category-2 card">
+              <div className="posts__inner card__content">
+                <div className="posts__cat posts__cat--flow">
+                  <span className="label posts__cat-label">Injuries</span>
+                </div>
+                <h6 className="posts__title">
+                  <a href="#">
+                    Thomas Durry has a hand injury and will come back in
+                    September
+                  </a>
+                </h6>
+                <time dateTime="2016-08-23" className="posts__date">
+                  August 23rd, 2018
+                </time>
+              </div>
+              <footer className="posts__footer card__footer">
+                <div className="post-author">
+                  <figure className="post-author__avatar">
+                    <img
+                      src="soccer-dark/assets/images/samples/avatar-1.jpg"
+                      alt="Post Author Avatar"
+                    />
+                  </figure>
+                  <div className="post-author__info">
+                    <h4 className="post-author__name">James Spiegel</h4>
+                  </div>
+                </div>
+                <ul className="post__meta meta">
+                  <li className="meta__item meta__item--views">2369</li>
+                  <li className="meta__item meta__item--likes">
+                    <a href="#">
+                      <i className="meta-like icon-heart" /> 530
+                    </a>
+                  </li>
+                  <li className="meta__item meta__item--comments">
+                    <a href="#">18</a>
+                  </li>
+                </ul>
+              </footer>
+            </div>
+            <a
+              href="https://instagram.com/kutumbafc"
+              className="btn-social-counter btn-social-counter--card btn-social-counter--instagram card"
+              target="top"
+            >
+              <div className="btn-social-counter__logo">
+                <img
+                  src="soccer-dark/assets/images/social-logo-instagram.png"
+                  alt="Google+"
+                />
+              </div>
+              <footer className="btn-social-counter__footer">
+                <h6 className="btn-social-counter__title">
+                  Follow us on Instagram
+                </h6>
+                <span className="btn-social-counter__count">
+                  10250 Followers
+                </span>
+                <span className="btn-social-counter__add-icon" />
+              </footer>
+            </a>
+            {/* <div className="posts__item posts__item--card posts__item--category-1 card">
+              <a
+                className="twitter-timeline"
+                href="https://twitter.com/TWITTER-ACCOUNT-ID"
+                data-tweet-limit="NUMBER OF TWEETS"
+                data-width="399"
+              ></a>
+              <script
+                async
+                src="http://platform.twitter.com/widgets.js"
+                charset="utf-8"
+              ></script>
+            </div> */}
+            <div className="posts__item posts__item--card posts__item--category-2 card">
+              <div className="posts__inner card__content">
+                <div className="posts__cat posts__cat--flow">
+                  <span className="label posts__cat-label">Injuries</span>
+                </div>
+                <h6 className="posts__title">
+                  <a href="#">
+                    Jessica Valentine has a sprained ankle and won't be in the
+                    Final
+                  </a>
+                </h6>
+                <time dateTime="2016-08-23" className="posts__date">
+                  August 23rd, 2018
+                </time>
+              </div>
+              <footer className="posts__footer card__footer">
+                <div className="post-author">
+                  <figure className="post-author__avatar">
+                    <img
+                      src="soccer-dark/assets/images/samples/avatar-1.jpg"
+                      alt="Post Author Avatar"
+                    />
+                  </figure>
+                  <div className="post-author__info">
+                    <h4 className="post-author__name">James Spiegel</h4>
+                  </div>
+                </div>
+                <ul className="post__meta meta">
+                  <li className="meta__item meta__item--views">2369</li>
+                  <li className="meta__item meta__item--likes">
+                    <a href="#">
+                      <i className="meta-like icon-heart" /> 530
+                    </a>
+                  </li>
+                  <li className="meta__item meta__item--comments">
+                    <a href="#">18</a>
+                  </li>
+                </ul>
+              </footer>
             </div>
           </div>
+          {/* Card columns end */}
         </div>
-        Content / End */}
+        {/* Container end */}
+        <div className="spacer py-md-5"></div>
       </motion.div>
     </motion.div>
   );

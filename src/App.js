@@ -11,10 +11,13 @@ import CheckIfLoggedIn from "./CheckIfLoggedIn";
 
 // Importing all pages
 import Index from "./pages/Index";
+import About from "./pages/About";
 import Players from "./pages/Players";
 import Fixtures from "./pages/Fixtures";
 import Newsroom from "./pages/Newsroom";
 import Gallery from "./pages/Gallery";
+import Careers from "./pages/Careers";
+import Sponsors from "./pages/Sponsors";
 import TermsOfService from "./pages/TermsOfService";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import DataProcessingAddendum from "./pages/DataProcessingAddendum";
@@ -26,17 +29,20 @@ export default class App extends Component {
       <Router>
         <Switch>
           <CheckIfLoggedIn exact path="/" component={Index} />
+          <CheckIfLoggedIn exact path="/about" component={About} />
           <CheckIfLoggedIn exact path="/players" component={Players} />
           <CheckIfLoggedIn exact path="/fixtures" component={Fixtures} />
           <CheckIfLoggedIn exact path="/newsroom" component={Newsroom} />
+          <CheckIfLoggedIn exact path="/careers" component={Careers} />
+          <CheckIfLoggedIn exact path="/sponsors" component={Sponsors} />
           <CheckIfLoggedIn exact path="/gallery" component={Gallery} />
-          <Route exact path="/privacy-policy" component={PrivacyPolicy} />
-          <Route
+          <CheckIfLoggedIn exact path="/privacy-policy" component={PrivacyPolicy} />
+          <CheckIfLoggedIn
             exact
             path="/data-processing-addendum"
             component={DataProcessingAddendum}
           />
-          <Route exact path="/terms-of-service" component={TermsOfService} />
+          <CheckIfLoggedIn exact path="/terms-of-service" component={TermsOfService} />
           <Route exact path="/404" component={Error404} />
           <Redirect to="/404" />
         </Switch>
