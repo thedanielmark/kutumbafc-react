@@ -3,9 +3,9 @@
   --headings-color: $headings-color;
   --circular-track-color: #4c5d6f;
 }
-body {
+/* body {
   display: none;
-}
+} */
 #jpreOverlay {
   background-color: #000000;
 }

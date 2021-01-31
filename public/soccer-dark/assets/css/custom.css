@@ -31,3 +31,7 @@
   }
 }
 /* Responsive cards end */
+
+.swiper-pagination-bullet-active {
+  background-color: #9a1919 !important;
+}

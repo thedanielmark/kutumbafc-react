@@ -11,7 +11,6 @@ export default class Index extends React.Component {
         <React.Fragment>
           <Helmet>
             <title>KuTumba FC</title>
-            <script src="soccer-dark/assets/vendor/twitter/jquery.twitter.js"></script>
           </Helmet>
           <Layout>
             <MainContent></MainContent>
