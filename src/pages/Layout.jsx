@@ -283,8 +283,11 @@ export default function Layout(props) {
                   <li>
                     <Link to={"/players"}>Players</Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link to={"/fixtures"}>Fixtures</Link>
+                  </li> */}
+                  <li>
+                    <Link to={"/subscribe"}>Subscribe</Link>
                   </li>
                   <li>
                     <Link to={"/newsroom"}>Newsroom</Link>

@@ -13,6 +13,7 @@ import CheckIfLoggedIn from "./CheckIfLoggedIn";
 import Index from "./pages/Index";
 import About from "./pages/About";
 import Players from "./pages/Players";
+import Subscribe from "./pages/Subscribe";
 import Fixtures from "./pages/Fixtures";
 import Newsroom from "./pages/Newsroom";
 import Gallery from "./pages/Gallery";
@@ -31,6 +32,7 @@ export default class App extends Component {
           <CheckIfLoggedIn exact path="/" component={Index} />
           <CheckIfLoggedIn exact path="/about" component={About} />
           <CheckIfLoggedIn exact path="/players" component={Players} />
+          <CheckIfLoggedIn exact path="/subscribe" component={Subscribe} />
           <CheckIfLoggedIn exact path="/fixtures" component={Fixtures} />
           <CheckIfLoggedIn exact path="/newsroom" component={Newsroom} />
           <CheckIfLoggedIn exact path="/careers" component={Careers} />

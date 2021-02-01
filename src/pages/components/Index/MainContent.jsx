@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { motion } from "framer-motion";
-import { BrowserRouter as Router, Link } from "react-router-dom";
-import SwiperCore from "swiper";
+import { BrowserRouter as Router, Link, NavLink } from "react-router-dom";
+import SwiperCore, { Navigation, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/swiper-bundle.css";
@@ -21,12 +21,18 @@ export default function MainContent() {
     },
   };
 
+  SwiperCore.use([Pagination]);
+
   return (
     <motion.div exit={{ opacity: 0 }} initial="initial" animate="animate">
       <motion.div variants={fade1}>
         {/* Hero Slider */}
         <div className="hero-slider-wrapper">
-          <Swiper>
+          <Swiper
+            autoplay={{ delay: 3000 }}
+            loop="true"
+            pagination={{ clickable: true }}
+          >
             {/* <div className="hero-slider"> */}
             {/* Slide #0 */}
             <SwiperSlide>
@@ -227,68 +233,9 @@ export default function MainContent() {
               </div>
             </SwiperSlide>
             {/* Slide #2 / End */}
-            {/* </div> */}
-            {/* <div className="hero-slider-thumbs-wrapper">
-            <div className="container">
-              <div className="hero-slider-thumbs posts posts--simple-list">
-                <div className="hero-slider-thumbs__item">
-                  <div className="posts__item posts__item--category-1">
-                    <div className="posts__inner">
-                      <div className="posts__cat">
-                        <span className="label posts__cat-label">The Team</span>
-                      </div>
-                      <h6 className="posts__title">
-                        Kutumba FC won the last game 2-0 against Clovers
-                      </h6>
-                      <time dateTime="2017-12-12" className="posts__date">
-                        August 28th, 2018
-                      </time>
-                    </div>
-                  </div>
-                </div>
-                <div className="hero-slider-thumbs__item">
-                  <div className="posts__item posts__item--category-2">
-                    <div className="posts__inner">
-                      <div className="posts__cat">
-                        <span className="label posts__cat-label">Injuries</span>
-                      </div>
-                      <h6 className="posts__title">
-                        Franklin Stevens has a knee fracture and is gona be out
-                      </h6>
-                      <time dateTime="2017-12-12" className="posts__date">
-                        August 28th, 2018
-                      </time>
-                    </div>
-                  </div>
-                </div>
-                <div className="hero-slider-thumbs__item">
-                  <div className="posts__item posts__item--category-1">
-                    <div className="posts__inner">
-                      <div className="posts__cat">
-                        <span className="label posts__cat-label">The Team</span>
-                      </div>
-                      <h6 className="posts__title">
-                        The New Eco Friendly Stadium won a leafy award in 2016
-                      </h6>
-                      <time dateTime="2017-12-12" className="posts__date">
-                        August 28th, 2018
-                      </time>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> */}
           </Swiper>
         </div>
         <div className="spacer py-md-5"></div>
-        {/* <div className="swiper-container">
-          <div className="swiper-wrapper">
-            <div className="swiper-slide bg-primary">Slide 1</div>
-            <div className="swiper-slide bg-light">Slide 2</div>
-            <div className="swiper-slide bg-secondary">Slide 3</div>
-          </div>
-        </div> */}
         <div className="container">
           <div className="card-columns">
             {/* Players Start */}
