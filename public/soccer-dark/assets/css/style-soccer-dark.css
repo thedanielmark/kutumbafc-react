@@ -24222,6 +24222,23 @@ table.alc-event-result-labels > tbody > tr > td.alc-results .label {
   .btn-social-counter__count {
   background-color: #ff1a1a;
 }
+.btn-social-counter--medium {
+  background-color: #00AB6C;
+}
+.btn-social-counter--medium .btn-social-counter__icon {
+  background-color: rgb(0, 145, 82);
+}
+.btn-social-counter--medium:hover {
+  background-color: #00AB6C;
+}
+.widget-social--condensed .btn-social-counter--medium {
+  background-color: #00AB6C;
+}
+.widget-social--condensed
+  .btn-social-counter--medium
+  .btn-social-counter__count {
+  background-color: #00AB6C;
+}
 .social-links {
   list-style-type: none;
   padding: 0;

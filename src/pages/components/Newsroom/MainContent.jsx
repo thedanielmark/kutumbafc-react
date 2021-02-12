@@ -702,115 +702,99 @@ export default function MainContent() {
               <div id="sidebar" className="sidebar col-lg-4">
                 {/* Widget: Popular News */}
                 <aside className="widget widget--sidebar card widget-popular-posts">
-                  <div className="widget__title card__header">
+                  <div className="widget__title card__header mb-3">
                     <h4>Popular News</h4>
                   </div>
-                  <div className="widget__content card__content">
-                    <ul className="posts posts--simple-list">
-                      <li className="posts__item posts__item--category-2">
-                        <figure className="posts__thumb">
-                          <a href="#">
-                            <img
-                              src="assets/images/samples/post-img1-xs.jpg"
-                              alt
-                            />
-                          </a>
-                        </figure>
-                        <div className="posts__inner">
-                          <div className="posts__cat">
-                            <span className="label posts__cat-label">
-                              Injuries
-                            </span>
-                          </div>
-                          <h6 className="posts__title">
-                            <a href="#">
-                              Mark Johnson has a Tibia Fracture and is gonna be
-                              out
-                            </a>
-                          </h6>
-                          <time dateTime="2016-08-23" className="posts__date">
-                            August 23rd, 2018
-                          </time>
-                        </div>
-                      </li>
-                      <li className="posts__item posts__item--category-1">
-                        <figure className="posts__thumb">
-                          <a href="#">
-                            <img
-                              src="assets/images/samples/post-img2-xs.jpg"
-                              alt
-                            />
-                          </a>
-                        </figure>
-                        <div className="posts__inner">
-                          <div className="posts__cat">
-                            <span className="label posts__cat-label">
-                              The Team
-                            </span>
-                          </div>
-                          <h6 className="posts__title">
-                            <a href="#">
-                              Jay Rorks is only 24 points away from breaking the
-                              record
-                            </a>
-                          </h6>
-                          <time dateTime="2016-08-23" className="posts__date">
-                            August 22nd, 2018
-                          </time>
-                        </div>
-                      </li>
-                      <li className="posts__item posts__item--category-1">
-                        <figure className="posts__thumb">
-                          <a href="#">
-                            <img
-                              src="assets/images/samples/post-img3-xs.jpg"
-                              alt
-                            />
-                          </a>
-                        </figure>
-                        <div className="posts__inner">
-                          <div className="posts__cat">
-                            <span className="label posts__cat-label">
-                              The Team
-                            </span>
-                          </div>
-                          <h6 className="posts__title">
-                            <a href="#">
-                              The new eco friendly stadium won a Leafy Award in
-                              2016
-                            </a>
-                          </h6>
-                          <time dateTime="2016-08-23" className="posts__date">
-                            June 8th, 2018
-                          </time>
-                        </div>
-                      </li>
-                      <li className="posts__item posts__item--category-1">
-                        <figure className="posts__thumb">
-                          <a href="#">
-                            <img
-                              src="assets/images/samples/post-img4-xs.jpg"
-                              alt
-                            />
-                          </a>
-                        </figure>
-                        <div className="posts__inner">
-                          <div className="posts__cat">
-                            <span className="label posts__cat-label">
-                              The Team
-                            </span>
-                          </div>
-                          <h6 className="posts__title">
-                            <a href="#">
-                              The team is starting a new power breakfast regimen
-                            </a>
-                          </h6>
-                          <time dateTime="2016-08-23" className="posts__date">
-                            May 12th, 2018
-                          </time>
-                        </div>
-                      </li>
-                    </ul>
+                  <div className="container mb-3">
+                    <a
+                      href="https://facebook.com/kutumbafc/"
+                      className="btn-social-counter btn-social-counter--fb"
+                      target="_blank"
+                    >
+                      <div className="btn-social-counter__icon">
+                        <i className="fab fa-facebook" />
+                      </div>
+                      <h6 className="btn-social-counter__title">
+                        Like Our Facebook Page
+                      </h6>
+                      <span className="btn-social-counter__count">
+                        <span className="btn-social-counter__count-num" />
+                        Live Videos &amp; highlights
+                      </span>
+                      <span className="btn-social-counter__add-icon" />
+                    </a>
+
+                    <a
+                      href="https://twitter.com/kutumbafc"
+                      className="btn-social-counter btn-social-counter--twitter"
+                      target="_blank"
+                    >
+                      <div className="btn-social-counter__icon">
+                        <i className="fab fa-twitter" />
+                      </div>
+                      <h6 className="btn-social-counter__title">
+                        Follow Us on Twitter
+                      </h6>
+                      <span className="btn-social-counter__count">
+                        <span className="btn-social-counter__count-num" />
+                        Quick updates &amp; news snippets
+                      </span>
+                      <span className="btn-social-counter__add-icon" />
+                    </a>
+
+                    <a
+                      href="https://instagram.com/kutumbafc"
+                      className="btn-social-counter btn-social-counter--instagram"
+                      target="_blank"
+                    >
+                      <div className="btn-social-counter__icon">
+                        <i className="fab fa-instagram" />
+                      </div>
+                      <h6 className="btn-social-counter__title">
+                        Follow Us on Instagram
+                      </h6>
+                      <span className="btn-social-counter__count">
+                        <span className="btn-social-counter__count-num" />
+                        Pictures, reels &amp; more
+                      </span>
+                      <span className="btn-social-counter__add-icon" />
+                    </a>
+
+                    <a
+                      href="https://youtube.com/channel/UCtHmuf2oQLnksokfz8GIbKA"
+                      className="btn-social-counter btn-social-counter--youtube"
+                      target="_blank"
+                    >
+                      <div className="btn-social-counter__icon">
+                        <i className="fab fa-youtube" />
+                      </div>
+                      <h6 className="btn-social-counter__title">
+                        Subscribe to our YouTube
+                      </h6>
+                      <span className="btn-social-counter__count">
+                        <span className="btn-social-counter__count-num" />
+                        Live streams &amp; highlights
+                      </span>
+                      <span className="btn-social-counter__add-icon" />
+                    </a>
+
+                    <a
+                      href="https://youtube.com/channel/UCtHmuf2oQLnksokfz8GIbKA"
+                      className="btn-social-counter btn-social-counter--medium"
+                      target="_blank"
+                    >
+                      <div className="btn-social-counter__icon">
+                        <i className="fab fa-medium-m" />
+                      </div>
+                      <h6 className="btn-social-counter__title">
+                        Subscribe to our YouTube
+                      </h6>
+                      <span className="btn-social-counter__count">
+                        <span className="btn-social-counter__count-num" />
+                        Live streams &amp; highlights
+                      </span>
+                      <span className="btn-social-counter__add-icon" />
+                    </a>
                   </div>
                 </aside>
                 {/* Widget: Popular News / End */}

@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Link, withRouter } from "react-router-dom";
 import "react-responsive-modal/styles.css";
 import { Modal } from "react-responsive-modal";
 import { useCookies } from "react-cookie";
+import axios from "axios";
 
 import "./layout.css";
 
@@ -143,10 +144,60 @@ export default function Layout(props) {
     window.location.reload();
   }
 
+  function logout() {
+    console.log("logout");
+    var phone = getCookie("phone");
+    var auth_token = getCookie("auth_token");
+
+    axios
+      .post(
+        localStorage.APIRoute +
+          "logout.php?phone=" +
+          phone +
+          "&auth_token=" +
+          auth_token
+      )
+      .then(function (response) {
+        console.log(response);
+        if (response.data === "success") {
+          removeCookie("email");
+          removeCookie("phone");
+          removeCookie("auth_token");
+          localStorage.isLoggedIn = false;
+          window.location.reload();
+        } else {
+          removeCookie("email");
+          removeCookie("phone");
+          removeCookie("auth_token");
+          localStorage.isLoggedIn = false;
+          window.location.reload();
+        }
+      })
+      .catch(function (error) {
+        console.log(error);
+      });
+  }
+
+  let isLoggedIn = localStorage.isLoggedIn;
+  const renderAuthButton = () => {
+    if (isLoggedIn === true) {
+      return (
+        <a href="#!" onClick={() => logout()}>
+          Logout
+        </a>
+      );
+    } else {
+      return <a href={localStorage.accounts}>Login</a>;
+    }
+  };
+
   const [cookies, setCookie, removeCookie] = useCookies([
     "googtrans",
     "sitelanguage",
     "cookies",
+    "email",
+    "phone",
+    "auth_token",
   ]);
 
   return (
@@ -200,14 +251,14 @@ export default function Layout(props) {
                   className="nav-account__item nav-account__item--logout"
                   id="login-button"
                 >
-                  <a href="https://accounts.kutumbafc.com/">Login</a>
+                  {renderAuthButton()}
                 </li>
-                <li
+                {/* <li
                   className="nav-account__item nav-account__item--logout"
                   id="logout-button"
                 >
-                  <a href="https://accounts.kutumbafc.com/">Logout</a>
-                </li>
+                  <a href={localStorage.accounts} onClick={() => logout()}>Logout</a>
+                </li> */}
               </ul>
               {/* Account Navigation / End */}
             </div>
@@ -218,7 +269,7 @@ export default function Layout(props) {
         <div className="header__secondary">
           <div className="container">
             {/* Header Search Form */}
-            <div className="header-search-form">
+            {/* <div className="header-search-form">
               <form action="#" id="mobile-search-form" className="search-form">
                 <input
                   type="text"
@@ -230,7 +281,7 @@ export default function Layout(props) {
                   <i className="fas fa-search" />
                 </button>
               </form>
-            </div>
+            </div> */}
             {/* Header Search Form / End */}
             <ul className="info-block info-block--header">
               <li className="info-block__item info-block__item--contact-primary">

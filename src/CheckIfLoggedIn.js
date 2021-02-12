@@ -24,10 +24,10 @@ class CheckIfLoggedIn extends React.Component {
 
     fetch(
       localStorage.APIRoute +
-        "auth-status.php?phone=" +
-        phone +
-        "&auth_token=" +
-        auth_token
+      "auth-status.php?phone=" +
+      phone +
+      "&auth_token=" +
+      auth_token
     )
       .then((res) => res.json())
       .then(
@@ -67,11 +67,13 @@ class CheckIfLoggedIn extends React.Component {
       const Component = this.props.component;
 
       if (data.isAuthenticated === true) {
-        return data.phoneConfirmed ? (
-          <Component />
-        ) : (
-          <Redirect to={{ pathname: "/verify-account" }} />
-        );
+        if (data.phoneConfirmed === true) {
+          localStorage.isLoggedIn = true;
+          return <Component />;
+        }
+        else {
+          return <Redirect to={{ pathname: "/verify-account" }} />;
+        }
       } else {
         return <Component />;
       }
